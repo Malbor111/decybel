@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'><rect width='26' height='26' rx='6' fill='%230D1117'/><g stroke='%234DCC6A' stroke-width='2' stroke-linecap='round'><line x1='3' y1='13' x2='3' y2='13'/><line x1='7' y1='8' x2='7' y2='18'/><line x1='11' y1='4' x2='11' y2='22'/><line x1='15' y1='9' x2='15' y2='17'/><line x1='19' y1='6' x2='19' y2='20'/><line x1='23' y1='11' x2='23' y2='15'/></g></svg>" type="image/svg+xml">
+  <link rel="icon" href="../favicon.ico" sizes="32x32">
+
+  <title>Kompresja w muzyce - czym jest korektor dynamiki i kiedy go używać | Mix i Master</title>
+  <meta name="description" content="Kompresja to kluczowe narzędzie kontroli dynamiki w produkcji muzyki. Poznaj parametry kompresora, typowe zastosowania i jak unikać przekompresowania.">
+  <link rel="canonical" href="https://mix-master.pl/artykuly/kompresja-w-muzyce">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Mix i Master">
+  <meta property="og:title" content="Kompresja w muzyce - czym jest korektor dynamiki i kiedy go używać">
+  <meta property="og:description" content="Kompresja to kluczowe narzędzie kontroli dynamiki w produkcji muzyki. Poznaj parametry kompresora, typowe zastosowania i jak unikać przekompresowania.">
+  <meta property="og:url" content="https://mix-master.pl/artykuly/kompresja-w-muzyce">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:image" content="https://mix-master.pl/images/compressor1.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kompresja w muzyce - czym jest korektor dynamiki i kiedy go używać">
+  <meta name="twitter:description" content="Kompresja to kluczowe narzędzie kontroli dynamiki w produkcji muzyki. Poznaj parametry kompresora, typowe zastosowania i jak unikać przekompresowania.">
+  <meta name="twitter:image" content="https://mix-master.pl/images/compressor1.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles.css">
+
+  <!-- JSON-LD: Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Kompresja w muzyce - czym jest korektor dynamiki i kiedy go używać",
+    "description": "Kompresja to kluczowe narzędzie kontroli dynamiki w produkcji muzyki. Poznaj parametry kompresora, typowe zastosowania i jak unikać przekompresowania.",
+    "inLanguage": "pl-PL",
+    "datePublished": "2026-05-26",
+    "dateModified": "2026-05-26",
+    "author": { "@type": "Organization", "name": "Redakcja Mix i Master" },
+    "publisher": { "@type": "Organization", "name": "Mix i Master" },
+    "mainEntityOfPage": "https://mix-master.pl/artykuly/kompresja-w-muzyce",
+    "articleSection": "Miks"
+  }
+  </script>
+  <!-- JSON-LD: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://mix-master.pl/" },
+      { "@type": "ListItem", "position": 2, "name": "Baza wiedzy", "item": "https://mix-master.pl/baza-wiedzy" },
+      { "@type": "ListItem", "position": 3, "name": "Kompresja w muzyce", "item": "https://mix-master.pl/artykuly/kompresja-w-muzyce" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Przejdź do treści</a>
+
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="../index.html" aria-label="Mix i Master - strona główna">
+        <svg width="32" height="32" viewBox="0 0 26 26" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="13" x2="3" y2="13"/><line x1="7" y1="8" x2="7" y2="18"/><line x1="11" y1="4" x2="11" y2="22"/><line x1="15" y1="9" x2="15" y2="17"/><line x1="19" y1="6" x2="19" y2="20"/><line x1="23" y1="11" x2="23" y2="15"/></g></svg>
+        Mix i Master
+      </a>
+      <button class="nav__toggle" aria-label="Otwórz menu" aria-expanded="false" aria-controls="nav-links">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      </button>
+      <nav aria-label="Główna">
+        <ul class="nav__links" id="nav-links">
+          <li><a href="../index.html">Strona główna</a></li>
+          <li><a href="../baza-wiedzy.html">Baza wiedzy</a></li>
+          <li><a href="../narzedzia.html">Narzędzia</a></li>
+          <li><a href="../slownik.html">Słownik</a></li>
+          <li><a href="../o-serwisie.html">O serwisie</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero hero--article">
+      <svg class="hero__bg" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+        <defs><linearGradient id="hgD" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#E05C5C" stop-opacity="0.4"/><stop offset="100%" stop-color="#4DCC6A" stop-opacity="0.08"/></linearGradient></defs>
+        <g stroke="url(#hgD)" stroke-width="2.5" stroke-linecap="round"><line x1="60" y1="150" x2="60" y2="150"/><line x1="120" y1="110" x2="120" y2="190"/><line x1="180" y1="70" x2="180" y2="230"/><line x1="240" y1="120" x2="240" y2="180"/><line x1="300" y1="50" x2="300" y2="250"/><line x1="360" y1="130" x2="360" y2="170"/><line x1="420" y1="90" x2="420" y2="210"/><line x1="480" y1="40" x2="480" y2="260"/><line x1="540" y1="120" x2="540" y2="180"/><line x1="600" y1="80" x2="600" y2="220"/><line x1="660" y1="60" x2="660" y2="240"/><line x1="720" y1="130" x2="720" y2="170"/><line x1="780" y1="100" x2="780" y2="200"/><line x1="840" y1="50" x2="840" y2="250"/><line x1="900" y1="120" x2="900" y2="180"/><line x1="960" y1="90" x2="960" y2="210"/><line x1="1020" y1="60" x2="1020" y2="240"/><line x1="1080" y1="130" x2="1080" y2="170"/><line x1="1140" y1="100" x2="1140" y2="200"/></g>
+      </svg>
+      <div class="wrap">
+        <nav class="breadcrumbs" aria-label="Okruszki">
+          <ol>
+            <li><a href="../index.html">Strona główna</a></li>
+            <li><a href="../baza-wiedzy.html">Baza wiedzy</a></li>
+            <li><span aria-current="page">Kompresja w muzyce</span></li>
+          </ol>
+        </nav>
+        <span class="eyebrow reveal" style="margin-top:1rem">Miks · Artykuł</span>
+        <h1 class="reveal">Kompresja w muzyce - czym jest korektor dynamiki i kiedy go używać?</h1>
+        <div class="article-meta reveal">
+          <span>Miks</span><span class="dot"></span><span>~11 min czytania</span><span class="dot"></span><span>Aktualizacja: 2026</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <figure class="article-banner reveal">
+        <img src="../images/compressor1.jpg" width="1200" height="630"
+             loading="lazy" decoding="async"
+             alt="Sprzętowy kompresor audio w szafie rack studyjnej z diodami i pokrętłami">
+      </figure>
+    </div>
+
+    <div class="wrap article-layout">
+      <article class="prose">
+        <p class="lead">Kompresja to jeden z tematów, przy którym wielu początkujących producentów zatrzymuje się na długo. Brzmi technicznie, parametry mają nieoczywiste nazwy, a efektu działania nie zawsze słychać wyraźnie - przynajmniej na początku. A jednak jest to jedno z najważniejszych narzędzi w produkcji muzycznej, bez którego profesjonalne brzmienie pozostaje poza zasięgiem. W tym artykule tłumaczymy kompresję od podstaw, bez żargonu - i pokazujemy, kiedy i jak jej używać.</p>
+
+        <h2 id="dynamika">Czym jest dynamika w muzyce i dlaczego ją kontrolujemy</h2>
+        <p><strong>Dynamika</strong> to różnica między najcichszymi a najgłośniejszymi momentami w nagraniu. Ludzki głos, gitara akustyczna, wokal - wszystkie te instrumenty mają naturalnie dużą dynamikę: ciche fragmenty i głośne wybuchy. W muzyce na żywo to żywe, naturalne brzmienie. W nagraniu studyjnym może być problemem.</p>
+        <p>Wyobraź sobie wokal, w którym refren jest dwa razy głośniejszy niż zwrotka. Przy równym ustawieniu głośności (fader) zwrotka będzie za cicha, a refren za głośny. Zanim zajmiesz się brzmieniem, musisz opanować dynamikę - zrównoważyć poziomy tak, żeby każda część wokalu była słyszalna i czytelna w miksie. Do tego służy kompresor.</p>
+
+        <h2 id="co-robi">Co robi kompresor - wyjaśnienie bez żargonu</h2>
+        <p>Kompresor to <strong>automatyczny regulator głośności</strong>. Gdy sygnał przekroczy ustawiony próg głośności (threshold), kompresor automatycznie go przycisza - zmniejsza wzmocnienie o określoną proporcję. Gdy sygnał spada poniżej progu, kompresor przestaje działać i głośność wraca do normy.</p>
+        <p>Analogia samochodowa: wyobraź sobie pedał gazu. Kiedy naciskasz go mocno (głośny fragment), ktoś delikatnie kładzie nogę na hamulec, żebyś nie przyspieszył za bardzo. Kiedy jedziesz wolno (cichy fragment), nikt nie ingeruje. To właśnie robi kompresor - reaguje na zbyt głośne momenty, łagodząc je, nie ruszając cichych.</p>
+
+        <figure aria-label="Ilustracja kompresji sygnału">
+          <svg viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;border-radius:8px" role="img" aria-label="Wykres sygnału przed i po kompresji: przed - duże szczyty, po - wyrównany poziom">
+            <rect width="600" height="160" fill="#1B212B"/>
+            <!-- etykiety -->
+            <text x="20" y="25" fill="white" font-size="11" font-family="Inter,sans-serif" font-weight="600">Przed kompresją</text>
+            <text x="320" y="25" fill="white" font-size="11" font-family="Inter,sans-serif" font-weight="600">Po kompresji</text>
+            <!-- separator pionowy -->
+            <line x1="300" y1="15" x2="300" y2="150" stroke="#5A6472" stroke-width="1" stroke-dasharray="4,4"/>
+            <!-- Sygnał PRZED - duże szczyty nieregularne -->
+            <polyline points="20,80 40,80 50,30 65,80 70,80 85,20 100,80 110,80 125,40 140,80 150,80 160,25 175,80 185,80 195,55 210,80 220,80 230,18 245,80 260,80 275,60 285,80"
+                      fill="none" stroke="#E05C5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <!-- Sygnał PO - wyrównany, mniejsze szczyty -->
+            <polyline points="315,80 335,80 345,55 360,80 365,80 380,48 395,80 405,80 420,57 435,80 445,80 455,50 470,80 480,80 490,60 505,80 515,80 525,45 540,80 555,80 570,62 580,80"
+                      fill="none" stroke="#4DCC6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <!-- Linia środkowa -->
+            <line x1="20" y1="80" x2="285" y2="80" stroke="#5A6472" stroke-width="0.5" stroke-dasharray="3,3"/>
+            <line x1="315" y1="80" x2="580" y2="80" stroke="#5A6472" stroke-width="0.5" stroke-dasharray="3,3"/>
+          </svg>
+          <figcaption style="font-size:0.8rem;color:var(--text-2,#9ba3ae);margin-top:0.5rem">Sygnał przed kompresją (czerwony) i po kompresji (zielony) - dynamika wyrównana, szczytowe poziomy obniżone</figcaption>
+        </figure>
+
+        <h2 id="parametry">Parametry kompresora - threshold, ratio, attack, release, makeup gain</h2>
+        <p>Każdy kompresor, niezależnie od marki i modelu, ma kilka kluczowych parametrów. Ich zrozumienie to podstawa sensownego używania kompresji.</p>
+
+        <h3>Threshold - próg działania</h3>
+        <p>Threshold określa, <strong>od jakiego poziomu głośności kompresor zaczyna działać</strong>. Jeśli ustawisz go na -20 dBFS, kompresor uruchomi się za każdym razem, gdy sygnał przekroczy -20 dBFS. Analogia: to wysokość poprzeczki, powyżej której zaczyna się ograniczenie. Im niższy threshold, tym więcej sygnału będzie kompresowane.</p>
+
+        <h3>Ratio - proporcja kompresji</h3>
+        <p>Ratio mówi, <strong>o ile kompresor przycisza sygnał powyżej threshold</strong>. Ratio 4:1 oznacza: za każde 4 dB powyżej progu, na wyjściu pojawi się tylko 1 dB. Ratio 2:1 to delikatna kompresja (często używana na bębnach do spójności); 10:1 i więcej to twarda kompresja bliska limiterowi. Analogia: ratio to jak mocno ta noga wciska hamulec.</p>
+
+        <h3>Attack - czas reakcji</h3>
+        <p>Attack to <strong>czas, jaki mija od momentu przekroczenia threshold do pełnego zadziałania kompresora</strong>. Mierzony w milisekundach. Krótki attack (1-5 ms) łapie nawet krótkie szczyty; długi attack (50-100 ms) przepuszcza początkowy impuls (transient), zanim kompresor zacznie działać. Długi attack na perkusji zachowuje naturalne uderzenie i atak; krótki spłaszcza brzmienie.</p>
+
+        <h3>Release - czas powrotu</h3>
+        <p>Release to <strong>czas, po którym kompresor przestaje działać, gdy sygnał spada poniżej threshold</strong>. Za krótki release powoduje efekt "pompowania" (słyszalny rytmiczny wzrost i spadek głośności); za długi sprawia, że kompresor nie zdąży się zwolnić przed kolejnym silnym uderzeniem. Właściwy release jest kluczem do naturalnie brzmiącej kompresji.</p>
+
+        <h3>Makeup gain - kompensacja głośności</h3>
+        <p>Kompresja zmniejsza głośność sygnału. Makeup gain (lub output gain) pozwala <strong>podnieść ogólną głośność po kompresji</strong> do pożądanego poziomu. To nie zwiększa dynamiki - po prostu przywraca głośność, którą straciłeś na skutek kompresji. Ważne: reguluj makeup gain po skonfigurowaniu threshold i ratio.</p>
+
+        <figure>
+          <img src="../images/compressor2.jpg" width="1200" height="630"
+               loading="lazy" decoding="async"
+               alt="Kompresor sprzętowy z podświetlonymi wskaźnikami redukcji gain w studiu nagraniowym">
+        </figure>
+
+        <h2 id="zastosowania">Gdzie stosuje się kompresję</h2>
+        <p>Kompresja to jedno z tych narzędzi, które stosuje się praktycznie wszędzie - ale z różną intensywnością i w różnym celu.</p>
+
+        <h3>Wokal</h3>
+        <p>Najczęstsze zastosowanie. Wokal ma ogromną dynamikę - od szeptu do krzyku. Kompresor wyrównuje poziomy, sprawia, że każde słowo jest słyszalne w miksie i nadaje głosowi spójność. Typowe ustawienie startowe: ratio 3:1-4:1, attack 10-20 ms, release 50-100 ms.</p>
+
+        <h3>Bębny</h3>
+        <p>Na bębnach kompresja służy do dwóch rzeczy: spójności zestawu i kształtowania charakteru. Kompresor na stopie nadaje jej "klik" lub "bum" w zależności od attack. Kompresor na całym zestawie (bus compression) skleja bębny w jedną zwartą całość.</p>
+
+        <h3>Bas</h3>
+        <p>Bas ma naturalnie nierówne poziomy - niektóre nuty są głośniejsze od innych. Kompresja wyrównuje dynamikę basu i sprawia, że pewnie siedzi w miksie bez wyskakiwania w górę w niespodziewanych momentach.</p>
+
+        <h3>Master bus</h3>
+        <p>Delikatna kompresja na sumie stereo (master bus) skleja ze sobą wszystkie elementy miksu i nadaje mu spójność. Tu najważniejsza jest subtelność - 1-2 dB redukcji gain przy ratio 2:1. Przekompresowanie mastera to najczęstszy błąd na tym etapie.</p>
+
+        <h2 id="sidechain">Sidechain compression - czym jest i po co się go używa</h2>
+        <p>Sidechain to technika, w której kompresor na jednej ścieżce jest wyzwalany (triggerowany) przez sygnał z <strong>innej ścieżki</strong>. Klasyczny przykład: kompresor na basie wyzwalany przez stopę. Za każdym razem, gdy stopa uderza, bas jest chwilowo przyciszany - bas i stopa razem tworzą spójny "dołek" rytmiczny, nie tłoczą się w tym samym zakresie. To technika używana praktycznie w każdej profesjonalnej produkcji elektronicznej.</p>
+
+        <p>Inny popularny przykład: kompresor na muzyce tła wyzwalany przez lektora w podcastach - gdy lektor mówi, muzyka automatycznie się przycisza (ducking).</p>
+
+        <figure>
+          <img src="../images/compressor3.jpg" width="1200" height="630"
+               loading="lazy" decoding="async"
+               alt="Panel sprzętowego kompresora z pokrętłami attack release ratio i threshold">
+        </figure>
+
+        <h2 id="przekompresowanie">Przekompresowanie - jak je rozpoznać i unikać</h2>
+        <p>Przekompresowanie to jeden z najczęstszych problemów w domowych produkcjach. Objawia się kilkoma charakterystycznymi symptomami:</p>
+        <ul>
+          <li><strong>Pompowanie</strong> - słyszalny, rytmiczny wzrost i spadek głośności całego miksu; klasyczny efekt zbyt krótkiego release na bus kompresji.</li>
+          <li><strong>Spłaszczenie dynamiki</strong> - utwór traci emocje; ciche fragmenty brzmią tak samo jak głośne, przez co muzyka jest monotonna i męcząca.</li>
+          <li><strong>Utrata transjentów</strong> - perkusja traci "klik" i atak; bębny brzmią miękko i bez charakteru.</li>
+          <li><strong>Zniekształcenie przy niskich ratio + niski threshold</strong> - kompresor pracuje nieustannie, sygnał brzmi przesterowany i bez przestrzeni.</li>
+        </ul>
+
+        <div class="callout">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          <p><strong>Test przekompresowania:</strong> Porównaj miks z kompresją i bez (bypass) przy tym samym poziomie głośności. Jeśli wersja bez brzmi bardziej naturalnie i dynamicznie - zmniejsz ilość kompresji. Celem jest "nie słyszeć" kompresora - ma działać, nie dominować.</p>
+        </div>
+
+        <h2 id="limiter">Kompresor a limiter - różnica i zastosowanie</h2>
+        <p>Limiter to kompresor z bardzo wysokim ratio - zwykle 10:1 lub więcej (tzw. "brick wall"). Jego zadanie jest proste: <strong>upewnić się, że sygnał nigdy nie przekroczy określonego poziomu</strong>. Gdzie kompresor delikatnie przycisza szczyty, limiter je twardym cięciem zatrzymuje.</p>
+        <p>W praktyce: kompresor służy do kształtowania dynamiki i charakteru brzmienia (miękko, muzycznie), a limiter do ochrony przed clippingiem i maksymalizacji głośności na etapie masteringu. Każdy profesjonalny master kończy się limiterem ustawionym na 0 dBFS lub -0,3 dBFS, chroniącym przed cyfrowym przesterowaniem przy konwersji do formatów dystrybucyjnych.</p>
+
+        <p>Chcesz zrozumieć pełen obraz procesu, w którym kompresja odgrywa rolę? Przeczytaj artykuł o różnicach między <a href="mix-czy-mastering.html">miksem a masteringiem</a> - to dwa osobne etapy, z bardzo różnym podejściem do kompresji. Jeśli dopiero zaczynasz naukę miksu, zajrzyj też do przewodnika po <a href="co-to-jest-eq.html">equalizerze (EQ)</a> - EQ i kompresja to dwa narzędzia, których zawsze używa się razem.</p>
+
+        <blockquote>
+          <p>Najlepsza kompresja to taka, której nie słyszysz. Pracuje w tle, wyrównuje, scala - i pozwala muzyce oddychać.</p>
+        </blockquote>
+
+        <section class="related" aria-label="Powiązane artykuły">
+          <h2>Czytaj dalej w bazie wiedzy</h2>
+          <div class="card-grid">
+            <article class="card">
+              <div class="card__body">
+                <div class="card__meta"><span class="tag">Teoria</span><span>9 min</span></div>
+                <h3><a class="card__link" href="mix-czy-mastering.html">Mix a mastering - różnice</a></h3>
+                <p>Dwa etapy, które łatwo pomylić. Wyjaśniamy co dzieje się na każdym z nich i gdzie kompresja gra rolę.</p>
+                <span class="card__more">Czytaj <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__body">
+                <div class="card__meta"><span class="tag">Miks</span><span>10 min</span></div>
+                <h3><a class="card__link" href="co-to-jest-eq.html">Co to jest EQ?</a></h3>
+                <p>EQ i kompresja to para. Zanim użyjesz kompresora, opanuj equalizer.</p>
+                <span class="card__more">Czytaj <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__body">
+                <div class="card__meta"><span class="tag">Start</span><span>10 min</span></div>
+                <h3><a class="card__link" href="jak-zaczac-produkcje-muzyki.html">Jak zacząć produkcję muzyki?</a></h3>
+                <p>Pełny poradnik dla początkujących - od pierwszego kroku do pierwszego skończonego utworu.</p>
+                <span class="card__more">Czytaj <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+              </div>
+            </article>
+          </div>
+        </section>
+      </article>
+
+      <aside>
+        <nav class="toc" aria-label="Spis treści">
+          <p class="toc__title">Spis treści</p>
+          <ol>
+            <li><a href="#dynamika">Czym jest dynamika?</a></li>
+            <li><a href="#co-robi">Co robi kompresor?</a></li>
+            <li><a href="#parametry">Parametry kompresora</a></li>
+            <li><a href="#zastosowania">Zastosowania</a></li>
+            <li><a href="#sidechain">Sidechain compression</a></li>
+            <li><a href="#przekompresowanie">Przekompresowanie</a></li>
+            <li><a href="#limiter">Kompresor a limiter</a></li>
+          </ol>
+        </nav>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__brand">
+        <a class="brand" href="../index.html" aria-label="Mix i Master - strona główna">
+          <svg width="24" height="24" viewBox="0 0 26 26" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="13" x2="3" y2="13"/><line x1="7" y1="8" x2="7" y2="18"/><line x1="11" y1="4" x2="11" y2="22"/><line x1="15" y1="9" x2="15" y2="17"/><line x1="19" y1="6" x2="19" y2="20"/><line x1="23" y1="11" x2="23" y2="15"/></g></svg>
+          Mix i Master
+        </a>
+        <p>Polska baza wiedzy o produkcji muzyki, miksie i masteringu. Uczymy zrozumiale i bez sprzedażowego szumu.</p>
+      </div>
+      <div>
+        <h4>Nawigacja</h4>
+        <ul>
+          <li><a href="../index.html">Strona główna</a></li>
+          <li><a href="../baza-wiedzy.html">Baza wiedzy</a></li>
+          <li><a href="../narzedzia.html">Narzędzia</a></li>
+          <li><a href="../slownik.html">Słownik</a></li>
+          <li><a href="../o-serwisie.html">O serwisie</a></li>
+        </ul>
+      </div>
+      <div><h4>Artykuły</h4><ul>
+        <li><a href="czym-jest-daw.html">Co to jest DAW</a></li>
+        <li><a href="najpopularniejsze-daw.html">Popularne DAW-y</a></li>
+        <li><a href="mix-czy-mastering.html">Mix a mastering</a></li>
+        <li><a href="jak-zaczac-produkcje-muzyki.html">Jak zacząć</a></li>
+        <li><a href="jak-nagrac-wokal-w-domu.html">Nagrywanie wokalu</a></li>
+        <li><a href="co-to-jest-eq.html">Co to jest EQ</a></li>
+        <li><a href="kompresja-w-muzyce.html">Kompresja w muzyce</a></li>
+      </ul></div>
+    </div>
+    <div class="wrap footer__bottom"><span>© 2026 Mix i Master</span><span>mix-master.pl - wiedza o dźwięku</span></div>
+  </footer>
+
+  <script src="../assets/main.js" defer></script>
+
+  <div class="peak-meter" aria-hidden="true">
+    <div class="peak-meter__label">L</div>
+    <div class="peak-meter__track">
+      <div class="peak-meter__bar" id="pm-left"></div>
+      <div class="peak-meter__peak" id="pm-peak-left"></div>
+    </div>
+    <div class="peak-meter__track">
+      <div class="peak-meter__bar" id="pm-right"></div>
+      <div class="peak-meter__peak" id="pm-peak-right"></div>
+    </div>
+    <div class="peak-meter__label">R</div>
+  </div>
+</body>
+</html>

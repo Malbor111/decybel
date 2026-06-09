@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'><rect width='26' height='26' rx='6' fill='%230D1117'/><g stroke='%234DCC6A' stroke-width='2' stroke-linecap='round'><line x1='3' y1='13' x2='3' y2='13'/><line x1='7' y1='8' x2='7' y2='18'/><line x1='11' y1='4' x2='11' y2='22'/><line x1='15' y1='9' x2='15' y2='17'/><line x1='19' y1='6' x2='19' y2='20'/><line x1='23' y1='11' x2='23' y2='15'/></g></svg>" type="image/svg+xml">
+  <link rel="icon" href="../favicon.ico" sizes="32x32">
+
+  <title>Co to jest EQ (equalizer) i jak go używać w miksie | Mix i Master</title>
+  <meta name="description" content="EQ to jedno z podstawowych narzędzi miksu. Dowiedz się, czym jest equalizer, jakie ma rodzaje i jak używać go przy produkcji muzyki.">
+  <link rel="canonical" href="https://mix-master.pl/artykuly/co-to-jest-eq">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Mix i Master">
+  <meta property="og:title" content="Co to jest EQ (equalizer) i jak go używać w miksie">
+  <meta property="og:description" content="EQ to jedno z podstawowych narzędzi miksu. Dowiedz się, czym jest equalizer, jakie ma rodzaje i jak używać go przy produkcji muzyki.">
+  <meta property="og:url" content="https://mix-master.pl/artykuly/co-to-jest-eq">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:image" content="https://mix-master.pl/images/equalizer1.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Co to jest EQ (equalizer) i jak go używać w miksie">
+  <meta name="twitter:description" content="EQ to jedno z podstawowych narzędzi miksu. Dowiedz się, czym jest equalizer, jakie ma rodzaje i jak używać go przy produkcji muzyki.">
+  <meta name="twitter:image" content="https://mix-master.pl/images/equalizer1.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles.css">
+
+  <!-- JSON-LD: Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Co to jest EQ (equalizer) i jak go używać w miksie",
+    "description": "EQ to jedno z podstawowych narzędzi miksu. Dowiedz się, czym jest equalizer, jakie ma rodzaje i jak używać go przy produkcji muzyki.",
+    "inLanguage": "pl-PL",
+    "datePublished": "2026-05-19",
+    "dateModified": "2026-05-19",
+    "author": { "@type": "Organization", "name": "Redakcja Mix i Master" },
+    "publisher": { "@type": "Organization", "name": "Mix i Master" },
+    "mainEntityOfPage": "https://mix-master.pl/artykuly/co-to-jest-eq",
+    "articleSection": "Miks"
+  }
+  </script>
+  <!-- JSON-LD: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://mix-master.pl/" },
+      { "@type": "ListItem", "position": 2, "name": "Baza wiedzy", "item": "https://mix-master.pl/baza-wiedzy" },
+      { "@type": "ListItem", "position": 3, "name": "Co to jest EQ", "item": "https://mix-master.pl/artykuly/co-to-jest-eq" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Przejdź do treści</a>
+
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="../index.html" aria-label="Mix i Master - strona główna">
+        <svg width="32" height="32" viewBox="0 0 26 26" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="13" x2="3" y2="13"/><line x1="7" y1="8" x2="7" y2="18"/><line x1="11" y1="4" x2="11" y2="22"/><line x1="15" y1="9" x2="15" y2="17"/><line x1="19" y1="6" x2="19" y2="20"/><line x1="23" y1="11" x2="23" y2="15"/></g></svg>
+        Mix i Master
+      </a>
+      <button class="nav__toggle" aria-label="Otwórz menu" aria-expanded="false" aria-controls="nav-links">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      </button>
+      <nav aria-label="Główna">
+        <ul class="nav__links" id="nav-links">
+          <li><a href="../index.html">Strona główna</a></li>
+          <li><a href="../baza-wiedzy.html">Baza wiedzy</a></li>
+          <li><a href="../narzedzia.html">Narzędzia</a></li>
+          <li><a href="../slownik.html">Słownik</a></li>
+          <li><a href="../o-serwisie.html">O serwisie</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero hero--article">
+      <svg class="hero__bg" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+        <defs><linearGradient id="hgC" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#E05C5C" stop-opacity="0.4"/><stop offset="100%" stop-color="#4DCC6A" stop-opacity="0.08"/></linearGradient></defs>
+        <g stroke="url(#hgC)" stroke-width="2.5" stroke-linecap="round"><line x1="60" y1="150" x2="60" y2="150"/><line x1="120" y1="110" x2="120" y2="190"/><line x1="180" y1="70" x2="180" y2="230"/><line x1="240" y1="120" x2="240" y2="180"/><line x1="300" y1="50" x2="300" y2="250"/><line x1="360" y1="130" x2="360" y2="170"/><line x1="420" y1="90" x2="420" y2="210"/><line x1="480" y1="40" x2="480" y2="260"/><line x1="540" y1="120" x2="540" y2="180"/><line x1="600" y1="80" x2="600" y2="220"/><line x1="660" y1="60" x2="660" y2="240"/><line x1="720" y1="130" x2="720" y2="170"/><line x1="780" y1="100" x2="780" y2="200"/><line x1="840" y1="50" x2="840" y2="250"/><line x1="900" y1="120" x2="900" y2="180"/><line x1="960" y1="90" x2="960" y2="210"/><line x1="1020" y1="60" x2="1020" y2="240"/><line x1="1080" y1="130" x2="1080" y2="170"/><line x1="1140" y1="100" x2="1140" y2="200"/></g>
+      </svg>
+      <div class="wrap">
+        <nav class="breadcrumbs" aria-label="Okruszki">
+          <ol>
+            <li><a href="../index.html">Strona główna</a></li>
+            <li><a href="../baza-wiedzy.html">Baza wiedzy</a></li>
+            <li><span aria-current="page">Co to jest EQ</span></li>
+          </ol>
+        </nav>
+        <span class="eyebrow reveal" style="margin-top:1rem">Miks · Artykuł</span>
+        <h1 class="reveal">Co to jest EQ (equalizer) i jak go używać w miksie?</h1>
+        <div class="article-meta reveal">
+          <span>Miks</span><span class="dot"></span><span>~10 min czytania</span><span class="dot"></span><span>Aktualizacja: 2026</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <figure class="article-banner reveal">
+        <img src="../images/equalizer1.jpg" width="1200" height="630"
+             loading="lazy" decoding="async"
+             alt="Sprzętowy equalizer audio z rzędami suwaków w studiu nagraniowym">
+      </figure>
+    </div>
+
+    <div class="wrap article-layout">
+      <article class="prose">
+        <p class="lead">Equalizer - w skrócie EQ - to jedno z najważniejszych narzędzi w zestawie każdego realizatora dźwięku. Znajdziesz go w każdym DAW-ie, w każdym sprzętowym miksie i w każdym profesjonalnym studiu nagraniowym. Wiele osób zaczyna od niego swoją naukę miksu, a wiele innych spędza na jego opanowaniu lata. Ale czym właściwie jest EQ i dlaczego jest tak istotny?</p>
+
+        <p>Najprostsza analogia: EQ działa jak korektor dźwięku w samochodowym radiu - pokrętła bass, mid i treble, które wzmacniają lub tłumią poszczególne zakresy częstotliwości. W profesjonalnym EQ masz do dyspozycji znacznie więcej pasm i znacznie większą precyzję, ale zasada pozostaje ta sama: koregujesz to, jak dany dźwięk rozkłada się w spektrum częstotliwości.</p>
+
+        <h2 id="jak-dziala">Jak działa equalizer - pasma częstotliwości</h2>
+        <p>Każdy dźwięk, który słyszysz - wokal, gitara, bębny, bas - to mieszanina fal o różnych częstotliwościach. Człowiek słyszy w zakresie od około <strong>20 Hz do 20 000 Hz (20 kHz)</strong>. EQ pozwala wybierać dowolny punkt w tym zakresie i wzmacniać go lub tłumić - podnosząc albo obniżając jego głośność o pewną liczbę decybeli (dB).</p>
+
+        <h3>Podział pasma na zakresy</h3>
+        <p>W praktyce pasmo słyszalne dzieli się na kilka głównych obszarów:</p>
+        <ul>
+          <li><strong>Sub-bas (20-80 Hz)</strong> - to, co czujesz bardziej niż słyszysz. Potężna niska podstawa kopnięcia stopy, głęboki ruch basu. Zbyt wiele sub-basu czyni miks błotnistym.</li>
+          <li><strong>Bas (80-250 Hz)</strong> - grubość i ciepło brzmienia. Bas gitarowy, bęben basowy, dolna część wokalu. Kluczowy zakres dla energii i pełności miksu.</li>
+          <li><strong>Środek niski (250 Hz-2 kHz)</strong> - tu łatwo o zamuloność i pudełkowe brzmienie. Ważny zakres dla czytelności instrumentów.</li>
+          <li><strong>Środek wysoki (2-6 kHz)</strong> - obecność i atak. Wyrazistość wokalu, chrzęst gitary, klik stopy. Zbyt dużo powoduje zmęczenie słuchu.</li>
+          <li><strong>Góra (6-20 kHz)</strong> - powietrze i jasność. Brylanty i detale. Zbyt wiele szumów i sybilantów; zbyt mało - miks brzmi przytłumiony.</li>
+        </ul>
+
+        <figure aria-label="Ilustracja krzywej EQ">
+          <svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;border-radius:8px" role="img" aria-label="Krzywa equalizera: podbicie basu przy 100Hz i cięcie w średnich przy 500Hz">
+            <rect width="600" height="200" fill="#1B212B"/>
+            <!-- osie -->
+            <line x1="40" y1="10" x2="40" y2="175" stroke="#5A6472" stroke-width="1.5"/>
+            <line x1="40" y1="100" x2="580" y2="100" stroke="#5A6472" stroke-width="1.5"/>
+            <!-- etykiety osi X -->
+            <text x="70" y="192" fill="white" font-size="11" font-family="Inter,sans-serif" text-anchor="middle">20Hz</text>
+            <text x="170" y="192" fill="white" font-size="11" font-family="Inter,sans-serif" text-anchor="middle">200Hz</text>
+            <text x="300" y="192" fill="white" font-size="11" font-family="Inter,sans-serif" text-anchor="middle">1kHz</text>
+            <text x="430" y="192" fill="white" font-size="11" font-family="Inter,sans-serif" text-anchor="middle">5kHz</text>
+            <text x="560" y="192" fill="white" font-size="11" font-family="Inter,sans-serif" text-anchor="middle">20kHz</text>
+            <!-- etykiety osi Y -->
+            <text x="34" y="32" fill="white" font-size="10" font-family="Inter,sans-serif" text-anchor="end">+12</text>
+            <text x="34" y="104" fill="white" font-size="10" font-family="Inter,sans-serif" text-anchor="end">0</text>
+            <text x="34" y="170" fill="white" font-size="10" font-family="Inter,sans-serif" text-anchor="end">-12</text>
+            <!-- krzywa EQ: podbicie basu ~100Hz, cięcie mid ~500Hz, lekkie podbicie górki -->
+            <path d="M 40,100 C 70,100 80,55 120,52 C 160,49 190,100 240,100 C 270,100 290,128 330,132 C 370,136 400,100 450,95 C 500,90 540,88 580,90"
+                  fill="none" stroke="#4DCC6A" stroke-width="2.5" stroke-linecap="round"/>
+            <!-- linia zerowa opis -->
+            <text x="48" y="97" fill="#5A6472" font-size="9" font-family="Inter,sans-serif">0 dB</text>
+          </svg>
+          <figcaption style="font-size:0.8rem;color:var(--text-2,#9ba3ae);margin-top:0.5rem">Przykładowa krzywa EQ: podbicie basu przy ~100 Hz i lekkie cięcie w środku przy ~500 Hz</figcaption>
+        </figure>
+
+        <h2 id="rodzaje">Rodzaje equalizerów</h2>
+        <p>EQ nie jest jednym narzędziem - to rodzina narzędzi, z których każde ma nieco inną charakterystykę i zastosowanie.</p>
+
+        <h3>EQ parametryczny</h3>
+        <p>Najpopularniejszy typ w produkcji muzycznej. Dla każdego pasma ustawiasz trzy parametry: <strong>częstotliwość środkową</strong> (gdzie działasz), <strong>wzmocnienie</strong> (ile dB podnosisz lub tłumisz) i <strong>Q (szerokość pasma)</strong> - czy działasz precyzyjnie w wąskim oknie, czy szeroko na całym zakresie. Daje maksymalną elastyczność.</p>
+
+        <h3>EQ graficzny</h3>
+        <p>Znany z samochodowych wzmacniaczy i domowych wież - rząd suwaków, każdy dla ustalonej częstotliwości. Intuicyjny, ale mniej precyzyjny. Stosowany często w systemach PA (nagłośnienie koncertowe) i do szybkich korekt odsłuchu.</p>
+
+        <h3>Shelving EQ</h3>
+        <p>Działa jak półka (ang. shelf) - od danej częstotliwości wzwyż lub w dół modyfikuje cały zakres o tę samą wartość dB. <strong>High shelf</strong> otwiera lub zamyka górę brzmienia, <strong>low shelf</strong> dodaje lub zabiera bas. Proste i skuteczne do ogólnego kształtowania barwy.</p>
+
+        <h3>High-pass i low-pass filter</h3>
+        <p>Filtry przepuszczające - <strong>HPF</strong> (high-pass filter) przepuszcza wysokie częstotliwości i tnie niskie, <strong>LPF</strong> robi odwrotnie. Kluczowe narzędzie przy porządkowaniu miksu. O HPF więcej za chwilę.</p>
+
+        <figure>
+          <img src="../images/equalizer2.jpg" width="1200" height="630"
+               loading="lazy" decoding="async"
+               alt="Cyfrowy equalizer parametryczny widoczny na ekranie DAW jako wtyczka do miksu">
+        </figure>
+
+        <h2 id="zastosowania">Do czego używa się EQ w miksie</h2>
+        <p>EQ to nie tylko „poprawianie dźwięku" - to precyzyjne narzędzie do kilku różnych zadań w procesie miksowania.</p>
+
+        <h3>Usuwanie częstotliwości problemowych</h3>
+        <p>Każde nagranie niesie ze sobą niechciane elementy: rezonanse pomieszczenia, dudnienie mikrofonu, nadmiarowy bas. EQ pozwala zlokalizować te częstotliwości i <strong>wąskim, głębokim cięciem</strong> je wyeliminować lub zmniejszyć. Technika poszukiwania problemów to <em>sweeping</em>: podnosisz wzmocnienie o +12 dB i wolno przesuwasz częstotliwość aż usłyszysz brzydki rezonans, a następnie go tłumisz.</p>
+
+        <h3>Tworzenie miejsca dla instrumentów</h3>
+        <p>Każdy instrument zajmuje pewien obszar w spektrum. Gdy kilka instrumentów rywalizuje w tym samym zakresie, miks staje się błotnisty. EQ pozwala <strong>wyciąć małe zakresy z jednego instrumentu</strong>, żeby zrobiło się miejsce dla drugiego. Klasyczny przykład: wycięcie niskich środków z gitary, żeby wokal miał przestrzeń.</p>
+
+        <h3>Kształtowanie barwy</h3>
+        <p>EQ służy też do aktywnego kształtowania charakteru dźwięku - dodania blasku wokalu lekkim shelving podbiciem górki, wydobycia ataku perkusji przez podbicie środka lub ocieplenia brzmienia przez lekki low shelf. To artystyczna strona equalizowania.</p>
+
+        <h2 id="hpf">High-pass filter - najważniejsza funkcja dla początkujących</h2>
+        <p>Jeśli chcesz zacząć od jednej funkcji EQ, niech to będzie <strong>high-pass filter (HPF)</strong>, zwany też <em>low-cut</em>. Filtr ten odcina wszystkie częstotliwości poniżej wybranego punktu i przepuszcza tylko to, co jest wyżej.</p>
+
+        <p>Dlaczego jest tak ważny? Bo zdecydowana większość instrumentów nie potrzebuje basowych częstotliwości. Wokal, gitara elektryczna, klawisze, talerze perkusji - wszystkie produkują energię w niskich częstotliwościach, której nie słychać, ale która zajmuje przestrzeń w miksie, dodaje błoto i sprawia, że bas i stopa tracą czytelność.</p>
+
+        <p>Praktyczna zasada: <strong>ustaw HPF na prawie każdej ścieżce</strong>, z wyjątkiem basu i stopy. Wokal - HPF około 80-100 Hz. Gitara elektryczna - 100 Hz. Klawisze - zależy od roli, ale zaczynaj od 80 Hz. To jeden zabieg, który natychmiast czyści miks.</p>
+
+        <div class="callout">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          <p><strong>Złota zasada:</strong> najpierw tnie EQ, dopiero potem dodaje. Cięcie problemów jest ważniejsze niż podbijanie. Miks zbudowany na cięciach HPF i wąskich tłumieniach brzmi zawsze czyściej niż miks pełen szerokich podbić.</p>
+        </div>
+
+        <figure>
+          <img src="../images/equalizer3.jpg" width="1200" height="630"
+               loading="lazy" decoding="async"
+               alt="Widok na wtyczki do miksu na ekranie komputera w domowym studio producenta muzyki">
+        </figure>
+
+        <h2 id="bledy">Typowe błędy przy używaniu EQ</h2>
+        <ul>
+          <li><strong>Podbijanie zamiast cięcia</strong> - podnosisz głośność zamiast usunąć problem. Efekt: coraz głośniejszy, ale nie czystszy miks.</li>
+          <li><strong>Zbyt szerokie pasma</strong> - szerokie podbicia zmieniają charakter całego brzmienia. Używaj wąskiego Q do cięć, szerszego do kształtowania barwy.</li>
+          <li><strong>Equalizowanie przez głośniki bez odsłuchu na słuchawkach</strong> - głośniki koloryzują dźwięk. Zawsze sprawdzaj wyniki EQ w słuchawkach.</li>
+          <li><strong>Porównywanie bez A/B</strong> - mózg uznaje głośniejsze za lepsze. Przy ocenie EQ zawsze porównuj przy tym samym poziomie głośności (bypass vs. włączony EQ).</li>
+          <li><strong>Equalizowanie na początku łańcucha efektów</strong> - zanim użyjesz EQ, posłuchaj surowego dźwięku. EQ przed kompresorem i EQ po kompresorze dają różne efekty.</li>
+        </ul>
+
+        <h2 id="mastering">EQ a mastering - różnice w podejściu</h2>
+        <p>W miksie EQ stosujesz na poszczególnych ścieżkach, precyzyjnie i często agresywnie. W masteringu masz do czynienia ze stereo sumą całego miksu - każda ingerencja wpływa na wszystkie instrumenty jednocześnie. Dlatego w masteringu EQ używa się znacznie subtelniej: korekty rzędu ±1-2 dB, bardzo szerokie pasma, minimalna interwencja.</p>
+
+        <p>Różnicę między miksem a masteringiem i to, czemu służy każdy z etapów, wyjaśniamy szczegółowo w artykule <a href="mix-czy-mastering.html">mix a mastering - różnice krok po kroku</a>.</p>
+
+        <p>Naturalnym kolejnym krokiem po EQ jest nauka kompresji - narzędzia kontrolującego dynamikę sygnału. Wszystko o tym, jak działa kompresor i kiedy go używać, znajdziesz w artykule <a href="kompresja-w-muzyce.html">kompresja w muzyce</a>.</p>
+
+        <section class="related" aria-label="Powiązane artykuły">
+          <h2>Czytaj dalej w bazie wiedzy</h2>
+          <div class="card-grid">
+            <article class="card">
+              <div class="card__body">
+                <div class="card__meta"><span class="tag">Miks</span><span>11 min</span></div>
+                <h3><a class="card__link" href="mix-czy-mastering.html">Mix a mastering - różnice</a></h3>
+                <p>Dwa etapy, które łatwo pomylić. Wyjaśniamy, co dzieje się na każdym z nich.</p>
+                <span class="card__more">Czytaj <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__body">
+                <div class="card__meta"><span class="tag">Miks</span><span>11 min</span></div>
+                <h3><a class="card__link" href="kompresja-w-muzyce.html">Kompresja w muzyce</a></h3>
+                <p>Threshold, ratio, attack, release - poznaj parametry kompresora i dowiedz się, kiedy go używać.</p>
+                <span class="card__more">Czytaj <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__body">
+                <div class="card__meta"><span class="tag">Nagrywanie</span><span>12 min</span></div>
+                <h3><a class="card__link" href="jak-nagrac-wokal-w-domu.html">Jak nagrać wokal w domu?</a></h3>
+                <p>Zanim będziesz miksować - musisz mieć co miksować. Dowiedz się, jak nagrać wokal bez studia.</p>
+                <span class="card__more">Czytaj <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+              </div>
+            </article>
+          </div>
+        </section>
+      </article>
+
+      <aside>
+        <nav class="toc" aria-label="Spis treści">
+          <p class="toc__title">Spis treści</p>
+          <ol>
+            <li><a href="#jak-dziala">Jak działa EQ</a></li>
+            <li><a href="#rodzaje">Rodzaje equalizerów</a></li>
+            <li><a href="#zastosowania">Zastosowania w miksie</a></li>
+            <li><a href="#hpf">High-pass filter</a></li>
+            <li><a href="#bledy">Typowe błędy</a></li>
+            <li><a href="#mastering">EQ a mastering</a></li>
+          </ol>
+        </nav>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__brand">
+        <a class="brand" href="../index.html" aria-label="Mix i Master - strona główna">
+          <svg width="24" height="24" viewBox="0 0 26 26" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="13" x2="3" y2="13"/><line x1="7" y1="8" x2="7" y2="18"/><line x1="11" y1="4" x2="11" y2="22"/><line x1="15" y1="9" x2="15" y2="17"/><line x1="19" y1="6" x2="19" y2="20"/><line x1="23" y1="11" x2="23" y2="15"/></g></svg>
+          Mix i Master
+        </a>
+        <p>Polska baza wiedzy o produkcji muzyki, miksie i masteringu. Uczymy zrozumiale i bez sprzedażowego szumu.</p>
+      </div>
+      <div>
+        <h4>Nawigacja</h4>
+        <ul>
+          <li><a href="../index.html">Strona główna</a></li>
+          <li><a href="../baza-wiedzy.html">Baza wiedzy</a></li>
+          <li><a href="../narzedzia.html">Narzędzia</a></li>
+          <li><a href="../slownik.html">Słownik</a></li>
+          <li><a href="../o-serwisie.html">O serwisie</a></li>
+        </ul>
+      </div>
+      <div><h4>Artykuły</h4><ul>
+        <li><a href="czym-jest-daw.html">Co to jest DAW</a></li>
+        <li><a href="najpopularniejsze-daw.html">Popularne DAW-y</a></li>
+        <li><a href="mix-czy-mastering.html">Mix a mastering</a></li>
+        <li><a href="jak-zaczac-produkcje-muzyki.html">Jak zacząć</a></li>
+        <li><a href="jak-nagrac-wokal-w-domu.html">Nagrywanie wokalu</a></li>
+        <li><a href="co-to-jest-eq.html">Co to jest EQ</a></li>
+        <li><a href="kompresja-w-muzyce.html">Kompresja w muzyce</a></li>
+      </ul></div>
+    </div>
+    <div class="wrap footer__bottom"><span>© 2026 Mix i Master</span><span>mix-master.pl - wiedza o dźwięku</span></div>
+  </footer>
+
+  <script src="../assets/main.js" defer></script>
+
+  <div class="peak-meter" aria-hidden="true">
+    <div class="peak-meter__label">L</div>
+    <div class="peak-meter__track">
+      <div class="peak-meter__bar" id="pm-left"></div>
+      <div class="peak-meter__peak" id="pm-peak-left"></div>
+    </div>
+    <div class="peak-meter__track">
+      <div class="peak-meter__bar" id="pm-right"></div>
+      <div class="peak-meter__peak" id="pm-peak-right"></div>
+    </div>
+    <div class="peak-meter__label">R</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'><rect width='26' height='26' rx='6' fill='%230D1117'/><g stroke='%234DCC6A' stroke-width='2' stroke-linecap='round'><line x1='3' y1='13' x2='3' y2='13'/><line x1='7' y1='8' x2='7' y2='18'/><line x1='11' y1='4' x2='11' y2='22'/><line x1='15' y1='9' x2='15' y2='17'/><line x1='19' y1='6' x2='19' y2='20'/><line x1='23' y1='11' x2='23' y2='15'/></g></svg>" type="image/svg+xml">
+  <link rel="icon" href="../favicon.ico" sizes="32x32">
+
+  <title>Co to jest DAW? Przewodnik po cyfrowej stacji roboczej | Mix i Master</title>
+  <meta name="description" content="Co to jest DAW (Digital Audio Workstation)? Wyjaśniamy, do czego służy, z czego się składa, czym różni się od edytora audio i jak wybrać pierwszy program do muzyki.">
+  <link rel="canonical" href="https://mix-master.pl/artykuly/czym-jest-daw">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Mix i Master">
+  <meta property="og:title" content="Co to jest DAW? Przewodnik po cyfrowej stacji roboczej">
+  <meta property="og:description" content="Czym jest DAW, z czego się składa i jak wybrać swój pierwszy program do produkcji muzyki. Kompletny przewodnik dla początkujących.">
+  <meta property="og:url" content="https://mix-master.pl/artykuly/czym-jest-daw">
+  <meta property="og:locale" content="pl_PL">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Co to jest DAW? Przewodnik po cyfrowej stacji roboczej">
+  <meta name="twitter:description" content="Czym jest DAW, z czego się składa i jak wybrać swój pierwszy program do produkcji muzyki.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles.css">
+
+  <!-- JSON-LD: Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Co to jest DAW? Przewodnik po cyfrowej stacji roboczej",
+    "description": "Czym jest DAW (Digital Audio Workstation), do czego służy, z czego się składa i jak wybrać swój pierwszy program do produkcji muzyki.",
+    "inLanguage": "pl-PL",
+    "author": { "@type": "Organization", "name": "Mix i Master" },
+    "publisher": { "@type": "Organization", "name": "Mix i Master" },
+    "mainEntityOfPage": "https://mix-master.pl/artykuly/czym-jest-daw",
+    "articleSection": "Podstawy produkcji muzyki"
+  }
+  </script>
+  <!-- JSON-LD: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://mix-master.pl/" },
+      { "@type": "ListItem", "position": 2, "name": "Baza wiedzy", "item": "https://mix-master.pl/baza-wiedzy" },
+      { "@type": "ListItem", "position": 3, "name": "Co to jest DAW", "item": "https://mix-master.pl/artykuly/czym-jest-daw" }
+    ]
+  }
+  </script>
+  <!-- JSON-LD: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Czy Audacity to DAW?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Audacity to przede wszystkim edytor audio. Świetnie sprawdza się przy cięciu, czyszczeniu i konwersji nagrań, ale brakuje mu pełnego, niedestrukcyjnego wielościeżkowego workflow, edytora MIDI i rozbudowanej automatyzacji, które definiują DAW. Do produkcji muzyki lepiej wybrać pełną cyfrową stację roboczą." }
+      },
+      {
+        "@type": "Question",
+        "name": "Czy do nauki potrzebny jest płatny DAW?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Nie. Wiele pełnoprawnych DAW-ów jest darmowych lub ma darmowe wersje, które w zupełności wystarczą do nauki i pierwszych produkcji. Na start ważniejsze jest poznanie jednego programu na wylot niż jego cena." }
+      },
+      {
+        "@type": "Question",
+        "name": "Czym jest wtyczka VST?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Wtyczka VST to dodatkowy moduł, który rozszerza DAW o nowe brzmienia lub efekty. Wtyczki instrumentów (VSTi) generują dźwięk, np. syntezatory czy sample perkusji, a wtyczki efektów przetwarzają sygnał, np. pogłos, kompresor czy equalizer." }
+      },
+      {
+        "@type": "Question",
+        "name": "Czy DAW działa na słabszym komputerze?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Tak, choć z ograniczeniami. Większość DAW-ów uruchomi się na przeciętnym komputerze, a liczbę jednoczesnych ścieżek i wtyczek można zwiększyć, korzystając z renderowania (bounce) i zwiększając bufor audio. Płynność pracy zależy głównie od procesora, ilości pamięci RAM i szybkiego dysku." }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Przejdź do treści</a>
+
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="../index.html" aria-label="Mix i Master - strona główna">
+        <svg width="32" height="32" viewBox="0 0 26 26" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="13" x2="3" y2="13"/><line x1="7" y1="8" x2="7" y2="18"/><line x1="11" y1="4" x2="11" y2="22"/><line x1="15" y1="9" x2="15" y2="17"/><line x1="19" y1="6" x2="19" y2="20"/><line x1="23" y1="11" x2="23" y2="15"/></g></svg>
+        Mix i Master
+      </a>
+      <button class="nav__toggle" aria-label="Otwórz menu" aria-expanded="false" aria-controls="nav-links">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      </button>
+      <nav aria-label="Główna">
+        <ul class="nav__links" id="nav-links">
+          <li><a href="../index.html">Strona główna</a></li>
+          <li><a href="../baza-wiedzy.html">Baza wiedzy</a></li>
+          <li><a href="../narzedzia.html">Narzędzia</a></li>
+          <li><a href="../slownik.html">Słownik</a></li>
+          <li><a href="../o-serwisie.html">O serwisie</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO artykułu -->
+    <section class="hero hero--article">
+      <svg class="hero__bg" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+        <defs><linearGradient id="hgA" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#E05C5C" stop-opacity="0.4"/><stop offset="100%" stop-color="#4DCC6A" stop-opacity="0.08"/></linearGradient></defs>
+        <g stroke="url(#hgA)" stroke-width="2.5" stroke-linecap="round"><line x1="60" y1="150" x2="60" y2="150"/><line x1="120" y1="110" x2="120" y2="190"/><line x1="180" y1="70" x2="180" y2="230"/><line x1="240" y1="120" x2="240" y2="180"/><line x1="300" y1="50" x2="300" y2="250"/><line x1="360" y1="130" x2="360" y2="170"/><line x1="420" y1="90" x2="420" y2="210"/><line x1="480" y1="40" x2="480" y2="260"/><line x1="540" y1="120" x2="540" y2="180"/><line x1="600" y1="80" x2="600" y2="220"/><line x1="660" y1="60" x2="660" y2="240"/><line x1="720" y1="130" x2="720" y2="170"/><line x1="780" y1="100" x2="780" y2="200"/><line x1="840" y1="50" x2="840" y2="250"/><line x1="900" y1="120" x2="900" y2="180"/><line x1="960" y1="90" x2="960" y2="210"/><line x1="1020" y1="60" x2="1020" y2="240"/><line x1="1080" y1="130" x2="1080" y2="170"/><line x1="1140" y1="100" x2="1140" y2="200"/></g>
+      </svg>
+      <div class="wrap">
+        <nav class="breadcrumbs" aria-label="Okruszki">
+          <ol>
+            <li><a href="../index.html">Strona główna</a></li>
+            <li><a href="../baza-wiedzy.html">Baza wiedzy</a></li>
+            <li><span aria-current="page">Co to jest DAW</span></li>
+          </ol>
+        </nav>
+        <span class="eyebrow reveal" style="margin-top:1rem">Podstawy · Artykuł filarowy</span>
+        <h1 class="reveal">Co to jest DAW? Przewodnik po cyfrowej stacji roboczej</h1>
+        <div class="article-meta reveal">
+          <span>Podstawy produkcji</span><span class="dot"></span><span>~9 min czytania</span><span class="dot"></span><span>Aktualizacja: 2026</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <figure class="article-banner reveal">
+        <picture>
+          <source type="image/webp" srcset="../images/bruno-araujo-8_EAzzAA3bg-unsplash.webp">
+          <img src="../images/bruno-araujo-8_EAzzAA3bg-unsplash.jpg" width="1400" height="2100"
+               loading="lazy" decoding="async"
+               alt="Producent przy stanowisku studyjnym: na monitorze otwarty program DAW z kolorowymi ścieżkami audio, obok studyjny głośnik odsłuchowy">
+        </picture>
+      </figure>
+    </div>
+
+    <div class="wrap article-layout">
+      <!-- TREŚĆ -->
+      <article class="prose">
+        <p class="lead">Jeśli zaczynasz przygodę z tworzeniem muzyki, jedno pojęcie pojawi się szybciej niż jakiekolwiek inne: <strong>DAW</strong>. To skrót od <em>Digital Audio Workstation</em>, czyli cyfrowej stacji roboczej. W praktyce to program, w którym powstaje cała współczesna muzyka - od bitów hip-hopowych po rozbudowane aranżacje filmowe. W tym przewodniku tłumaczymy, czym dokładnie jest DAW, z jakich elementów się składa, czym różni się od zwykłego edytora audio i jak wybrać swój pierwszy.</p>
+
+        <p>To artykuł filarowy naszej bazy wiedzy - od niego najlepiej zacząć, a potem przejść dalej do bardziej szczegółowych tematów, do których linkujemy po drodze.</p>
+
+        <h2 id="czym-jest">Czym właściwie jest DAW?</h2>
+        <p>DAW to <strong>program komputerowy do nagrywania, edycji, aranżacji, miksowania i finalizowania dźwięku</strong>. Możesz wyobrazić sobie całe studio nagraniowe sprzed lat - magnetofon wielościeżkowy, konsoletę mikserską, półki z efektami i syntezatorami - zamknięte w jednej aplikacji. To, co kiedyś wymagało pomieszczenia pełnego sprzętu wartego fortunę, dziś mieści się w laptopie.</p>
+        <p>W DAW możesz na przykład nagrać wokal przez mikrofon, dograć do niego linię basu z klawiatury MIDI, dodać perkusję z gotowych sampli, ułożyć wszystko w zwrotki i refreny, a na końcu zbalansować głośności i dodać efekty. Wszystko w jednym oknie, niedestrukcyjnie - czyli bez trwałego nadpisywania oryginalnych nagrań.</p>
+
+        <div class="callout">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          <p><strong>W skrócie:</strong> DAW to centrum dowodzenia całej produkcji. Bez niego trudno mówić o nowoczesnym tworzeniu muzyki - to fundament, na którym opiera się każdy kolejny etap, łącznie z miksem i masteringiem.</p>
+        </div>
+
+        <h2 id="do-czego-sluzy">Do czego służy DAW?</h2>
+        <p>Choć każdy program ma swój charakter, niemal wszystkie DAW-y realizują te same podstawowe zadania:</p>
+        <ul>
+          <li><strong>Nagrywanie</strong> - rejestrowanie dźwięku z mikrofonu, instrumentu czy interfejsu audio, a także zapis gry na kontrolerze MIDI.</li>
+          <li><strong>Aranżacja</strong> - układanie poszczególnych fragmentów (zwrotka, refren, przejście) na osi czasu i budowanie z nich pełnego utworu.</li>
+          <li><strong>Edycja</strong> - cięcie, przesuwanie, kopiowanie, korekta wysokości i czasu, czyszczenie nagrań.</li>
+          <li><strong>Programowanie MIDI</strong> - tworzenie melodii i rytmów bez gry na żywo, „rysowanie” nut w edytorze.</li>
+          <li><strong>Miksowanie</strong> - łączenie wszystkich ścieżek w spójną, dobrze brzmiącą całość.</li>
+          <li><strong>Eksport</strong> - wyrenderowanie gotowego utworu do pliku, np. WAV lub MP3.</li>
+        </ul>
+        <p>Różnicę między miksowaniem a finalnym szlifem wyjaśniamy osobno w artykule <a href="mix-czy-mastering.html">o różnicach między miksem a masteringiem</a> - to dwa odrębne etapy, które łatwo pomylić.</p>
+
+        <h2 id="z-czego-sie-sklada">Z czego składa się DAW?</h2>
+        <p>Większość cyfrowych stacji roboczych zbudowana jest z kilku powtarzalnych elementów. Gdy poznasz je w jednym programie, w innym odnajdziesz się znacznie szybciej.</p>
+
+        <h3 id="sciezki">Ścieżki i okno aranżacji</h3>
+        <p>Serce DAW-a to widok aranżacji - pozioma oś czasu, na której piętrzą się <strong>ścieżki</strong>. Każda ścieżka to osobna warstwa: jedna na wokal, druga na bas, trzecia na perkusję i tak dalej. Dzięki temu masz pełną kontrolę nad każdym elementem z osobna. Ścieżki dzielą się zwykle na audio (nagrany dźwięk) i MIDI (informacja o nutach sterująca instrumentem wirtualnym).</p>
+
+        <h3 id="mikser">Mikser</h3>
+        <p>Mikser to cyfrowy odpowiednik konsolety. Dla każdej ścieżki znajdziesz w nim suwak głośności (fader), gałkę panoramy (umiejscowienie dźwięku w lewo/prawo), wskaźniki poziomu oraz miejsca na wtyczki efektów. To tutaj rozgrywa się większość pracy nad <a href="mix-czy-mastering.html">miksem</a>.</p>
+
+        <h3 id="edytor-midi">Edytor MIDI (piano roll)</h3>
+        <p>Tak zwany <em>piano roll</em> to siatka, w której nuty przedstawione są jako prostokąty - im wyżej, tym wyższy dźwięk, im dłuższy prostokąt, tym dłuższa nuta. To najwygodniejszy sposób, by tworzyć melodie i akordy bez umiejętności gry na instrumencie. MIDI nie zawiera dźwięku - to instrukcja, którą odczytuje instrument wirtualny.</p>
+
+        <h3 id="wtyczki">Wtyczki: instrumenty i efekty (VST/AU)</h3>
+        <p>Wtyczki rozszerzają DAW o nowe brzmienia i narzędzia. Dzielą się na dwie grupy:</p>
+        <ul>
+          <li><strong>Instrumenty wirtualne (VSTi)</strong> - generują dźwięk: syntezatory, sample fortepianu, zestawy perkusyjne.</li>
+          <li><strong>Efekty</strong> - przetwarzają istniejący sygnał: equalizer (EQ), kompresor, pogłos (reverb), opóźnienie (delay).</li>
+        </ul>
+        <p>Najpopularniejsze formaty to <strong>VST</strong> (Windows i macOS) oraz <strong>AU</strong> (Audio Units, charakterystyczny dla świata Apple). Dzięki nim ten sam program można rozbudowywać latami, dopasowując go do własnego stylu.</p>
+
+        <h3 id="automatyzacja">Automatyzacja</h3>
+        <p>Automatyzacja pozwala zapisać, jak parametr zmienia się w czasie - na przykład stopniowe wyciszenie utworu na końcu, otwieranie filtra w refrenie czy płynna zmiana panoramy. To ona sprawia, że produkcja „żyje” i nie brzmi statycznie.</p>
+
+        <div class="callout">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v20M2 12h20"/></svg>
+          <p><strong>Dobra wiadomość:</strong> nie musisz uczyć się wszystkich elementów naraz. Na początek wystarczą ścieżki, piano roll i podstawy miksera. Resztę dołożysz naturalnie, gdy pojawi się potrzeba.</p>
+        </div>
+
+        <h2 id="daw-a-edytor">DAW a zwykły edytor audio - kluczowa różnica</h2>
+        <p>To jedno z najczęstszych nieporozumień wśród początkujących. <strong>Nie każdy program do dźwięku jest DAW-em.</strong> Najlepszy przykład to <em>Audacity</em> - popularny, darmowy i bardzo przydatny, ale w swojej istocie <strong>edytor audio</strong>, a nie pełna cyfrowa stacja robocza.</p>
+        <p>Edytor audio świetnie nadaje się do prostych zadań: przycięcia nagrania, usunięcia szumu, normalizacji głośności, konwersji formatu czy szybkiej obróbki podcastu. Pracuje jednak w modelu bliższym „otwórz plik, zmień, zapisz” i często <strong>destrukcyjnie</strong> - czyli faktycznie modyfikuje materiał.</p>
+        <p>DAW działa inaczej. Jest <strong>niedestrukcyjny</strong> (oryginał zostaje nietknięty), <strong>wielościeżkowy</strong> z myślą o aranżacji, ma <strong>edytor MIDI</strong>, obsługuje <strong>instrumenty wirtualne</strong>, oferuje rozbudowaną <strong>automatyzację</strong> i pełny mikser. Mówiąc obrazowo: edytor audio to nożyczki i taśma, a DAW to całe studio.</p>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Cecha</th><th>Edytor audio (np. Audacity)</th><th>DAW</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Praca wielościeżkowa</td><td>Ograniczona</td><td>Pełna, rdzeń programu</td></tr>
+              <tr><td>Edytor MIDI</td><td>Brak lub szczątkowy</td><td>Tak, piano roll</td></tr>
+              <tr><td>Instrumenty wirtualne</td><td>Zwykle brak</td><td>Tak (VST/AU)</td></tr>
+              <tr><td>Automatyzacja</td><td>Podstawowa</td><td>Rozbudowana</td></tr>
+              <tr><td>Model pracy</td><td>Często destrukcyjny</td><td>Niedestrukcyjny</td></tr>
+              <tr><td>Typowe zastosowanie</td><td>Obróbka, podcast, szybkie cięcia</td><td>Produkcja i aranżacja muzyki</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 id="dla-kogo">Dla kogo jest DAW?</h2>
+        <p>Krótka odpowiedź: dla każdego, kto chce tworzyć muzykę lub poważnie pracować z dźwiękiem. W praktyce z DAW-ów korzystają:</p>
+        <ul>
+          <li><strong>Producenci i beatmakerzy</strong> - budują bity i aranżacje od zera.</li>
+          <li><strong>Muzycy i zespoły</strong> - nagrywają dema, single i całe albumy.</li>
+          <li><strong>Realizatorzy dźwięku</strong> - miksują i przygotowują materiał do publikacji.</li>
+          <li><strong>Twórcy do filmu i gier</strong> - komponują muzykę i projektują dźwięk.</li>
+          <li><strong>Podcasterzy i twórcy wideo</strong> - montują i poprawiają ścieżki głosowe.</li>
+        </ul>
+        <p>Nie potrzebujesz formalnego wykształcenia muzycznego ani drogiego sprzętu, żeby zacząć. Wystarczy komputer, słuchawki i chęci. Pełną listę tego, co realnie przyda się na start, znajdziesz w poradniku <a href="jak-zaczac-produkcje-muzyki.html">jak zacząć produkcję muzyki</a>.</p>
+
+        <h2 id="jak-wybrac">Jak wybrać swój pierwszy DAW?</h2>
+        <p>Najważniejsza prawda na początek: <strong>nie istnieje jeden „najlepszy” DAW</strong>. Wszystkie liczące się programy potrafią dziś stworzyć profesjonalnie brzmiącą muzykę. Różnią się raczej sposobem pracy (workflow) i tym, do jakiego stylu najbardziej zachęcają. Wybierając pierwszy, kieruj się kilkoma prostymi kryteriami:</p>
+        <ul>
+          <li><strong>Platforma</strong> - czy działa na Twoim systemie? Niektóre programy są wyłącznie dla macOS.</li>
+          <li><strong>Gatunek i sposób pracy</strong> - część DAW-ów słynie z elektroniki i pracy na pętlach, inne z klasycznego nagrywania zespołów.</li>
+          <li><strong>Budżet</strong> - istnieją bardzo dobre <strong>darmowe</strong> DAW-y, którymi spokojnie zaczniesz.</li>
+          <li><strong>Materiały do nauki</strong> - im więcej kursów i poradników po polsku i angielsku, tym łatwiejszy start.</li>
+        </ul>
+        <p>Najlepsza rada? Wybierz jeden program i zostań przy nim na tyle długo, by poznać go naprawdę dobrze. Przeskakiwanie między DAW-ami co tydzień to najczęstszy sposób, by utknąć w miejscu. Konkretne propozycje wraz z platformami i mocnymi stronami opisaliśmy w przeglądzie <a href="najpopularniejsze-daw.html">najpopularniejszych programów do produkcji muzyki</a>.</p>
+
+        <blockquote>
+          <p>Twój pierwszy DAW nie musi być ostatnim. Ważniejsze, żeby był taki, w którym po prostu zaczniesz tworzyć - bo to praktyka, a nie nazwa programu, robi z Ciebie producenta.</p>
+        </blockquote>
+
+        <h2 id="faq">Najczęstsze pytania (FAQ)</h2>
+        <div class="faq">
+          <details class="faq__item">
+            <summary>Czy Audacity to DAW?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></summary>
+            <div class="faq__a"><p>Audacity to przede wszystkim edytor audio. Świetnie radzi sobie z cięciem, czyszczeniem i konwersją nagrań, ale brakuje mu pełnego, niedestrukcyjnego workflow wielościeżkowego, edytora MIDI i rozbudowanej automatyzacji, które definiują DAW. Do produkcji muzyki lepiej wybrać pełną cyfrową stację roboczą.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>Czy do nauki potrzebny jest płatny DAW?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></summary>
+            <div class="faq__a"><p>Nie. Wiele pełnoprawnych DAW-ów jest darmowych albo ma darmowe wersje, które w zupełności wystarczą do nauki i pierwszych produkcji. Na start ważniejsze jest poznanie jednego programu na wylot niż jego cena.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>Czym jest wtyczka VST?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></summary>
+            <div class="faq__a"><p>Wtyczka VST to dodatkowy moduł rozszerzający DAW o nowe brzmienia lub efekty. Wtyczki instrumentów (VSTi) generują dźwięk, np. syntezatory czy sample perkusji, a wtyczki efektów przetwarzają sygnał - pogłos, kompresor, equalizer.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>Czy DAW działa na słabszym komputerze?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></summary>
+            <div class="faq__a"><p>Tak, choć z ograniczeniami. Większość DAW-ów uruchomi się na przeciętnym komputerze, a liczbę jednoczesnych ścieżek i wtyczek zwiększysz, renderując fragmenty (bounce) i podnosząc bufor audio. Płynność zależy głównie od procesora, ilości RAM i szybkiego dysku.</p></div>
+          </details>
+        </div>
+
+        <!-- KLASTER: linki wewnętrzne -->
+        <section class="related" aria-label="Powiązane artykuły">
+          <h2>Czytaj dalej w bazie wiedzy</h2>
+          <div class="card-grid">
+            <article class="card">
+              <div class="card__body">
+                <div class="card__meta"><span class="tag">Programy</span><span>11 min</span></div>
+                <h3><a class="card__link" href="najpopularniejsze-daw.html">Najpopularniejsze programy do produkcji muzyki</a></h3>
+                <p>Porównaj główne DAW-y, ich platformy i mocne strony - i wybierz swój pierwszy.</p>
+                <span class="card__more">Czytaj <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__body">
+                <div class="card__meta"><span class="tag">Start</span><span>10 min</span></div>
+                <h3><a class="card__link" href="jak-zaczac-produkcje-muzyki.html">Jak zacząć produkcję muzyki?</a></h3>
+                <p>Co realnie potrzebne na start, pierwsze kroki i błędy, których lepiej uniknąć.</p>
+                <span class="card__more">Czytaj <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__body">
+                <div class="card__meta"><span class="tag">Teoria</span><span>9 min</span></div>
+                <h3><a class="card__link" href="mix-czy-mastering.html">Mix a mastering - różnice</a></h3>
+                <p>Dwa etapy, które łatwo pomylić. Wyjaśniamy, co dzieje się na każdym z nich.</p>
+                <span class="card__more">Czytaj <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+              </div>
+            </article>
+          </div>
+        </section>
+      </article>
+
+      <!-- SPIS TREŚCI -->
+      <aside>
+        <nav class="toc" aria-label="Spis treści">
+          <p class="toc__title">Spis treści</p>
+          <ol>
+            <li><a href="#czym-jest">Czym właściwie jest DAW?</a></li>
+            <li><a href="#do-czego-sluzy">Do czego służy DAW?</a></li>
+            <li><a href="#z-czego-sie-sklada">Z czego się składa?</a></li>
+            <li><a href="#daw-a-edytor">DAW a edytor audio</a></li>
+            <li><a href="#dla-kogo">Dla kogo jest DAW?</a></li>
+            <li><a href="#jak-wybrac">Jak wybrać pierwszy?</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ol>
+        </nav>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__brand">
+        <a class="brand" href="../index.html" aria-label="Mix i Master - strona główna">
+          <svg width="24" height="24" viewBox="0 0 26 26" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="13" x2="3" y2="13"/><line x1="7" y1="8" x2="7" y2="18"/><line x1="11" y1="4" x2="11" y2="22"/><line x1="15" y1="9" x2="15" y2="17"/><line x1="19" y1="6" x2="19" y2="20"/><line x1="23" y1="11" x2="23" y2="15"/></g></svg>
+          Mix i Master
+        </a>
+        <p>Polska baza wiedzy o produkcji muzyki, miksie i masteringu. Uczymy zrozumiale i bez sprzedażowego szumu.</p>
+      </div>
+      <div>
+        <h4>Nawigacja</h4>
+        <ul>
+          <li><a href="../index.html">Strona główna</a></li>
+          <li><a href="../baza-wiedzy.html">Baza wiedzy</a></li>
+          <li><a href="../narzedzia.html">Narzędzia</a></li>
+          <li><a href="../slownik.html">Słownik</a></li>
+          <li><a href="../o-serwisie.html">O serwisie</a></li>
+        </ul>
+      </div>
+      <div><h4>Artykuły</h4><ul><li><a href="czym-jest-daw.html">Co to jest DAW</a></li><li><a href="najpopularniejsze-daw.html">Popularne DAW-y</a></li><li><a href="mix-czy-mastering.html">Mix a mastering</a></li><li><a href="jak-zaczac-produkcje-muzyki.html">Jak zacząć</a></li></ul></div>
+    </div>
+    <div class="wrap footer__bottom"><span>© 2026 Mix i Master</span><span>mix-master.pl - wiedza o dźwięku</span></div>
+  </footer>
+
+  <script src="../assets/main.js" defer></script>
+
+  <div class="peak-meter" aria-hidden="true">
+    <div class="peak-meter__label">L</div>
+    <div class="peak-meter__track">
+      <div class="peak-meter__bar" id="pm-left"></div>
+      <div class="peak-meter__peak" id="pm-peak-left"></div>
+    </div>
+    <div class="peak-meter__track">
+      <div class="peak-meter__bar" id="pm-right"></div>
+      <div class="peak-meter__peak" id="pm-peak-right"></div>
+    </div>
+    <div class="peak-meter__label">R</div>
+  </div>
+</body>
+</html>
