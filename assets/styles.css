@@ -1360,6 +1360,14 @@ tbody tr:hover td { background: rgba(255,255,255,0.015); }
   .article-layout > [class*="aside"] {
     display: none;
   }
+
+  /* Szeroka tabela (np. 5 kolumn) nie może rozepchać layoutu artykułu.
+     overflow-x: hidden zapobiega poziomemu overflow; tabele scrollują
+     wewnątrz własnego .table-wrap (overflow-x: auto), więc UX nie ucierpi.
+     Bez tego na mobile 5-kolumnowa tabela rozszerza .prose i stronę. */
+  .article-layout {
+    overflow-x: hidden;
+  }
 }
 
 
