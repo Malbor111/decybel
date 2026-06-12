@@ -797,11 +797,12 @@ tbody tr:hover td { background: rgba(255,255,255,0.015); }
 .author-byline { display: inline-flex; align-items: center; gap: 0.45rem; }
 .author-byline a { color: var(--text); text-decoration: none; }
 .author-byline a:hover { color: var(--accent); }
-.author-avatar { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; flex-shrink: 0; display: inline-block; vertical-align: middle; }
+.author-avatar { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; object-position: top; flex-shrink: 0; display: inline-block; vertical-align: middle; }
 
 /* Strona profilu autora */
-.author-profile { display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 2.5rem; }
-.author-profile__photo { width: 180px; height: auto; border-radius: var(--radius); flex-shrink: 0; object-fit: cover; }
+.author-profile { display: flex; gap: 2.5rem; align-items: flex-start; margin-bottom: 2.5rem; }
+.author-profile > picture { flex: 0 0 260px; width: 260px; }
+.author-profile__photo { display: block; width: 100%; height: 260px; border-radius: var(--radius); object-fit: cover; object-position: top; }
 .author-profile__role { font-family: var(--font-mono); font-size: 0.82rem; color: var(--accent); margin: 0 0 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; }
 .author-articles { display: flex; flex-direction: column; gap: 0.6rem; padding: 0; list-style: none; }
 .author-articles li::before { content: "→ "; color: var(--accent); font-family: var(--font-mono); font-size: 0.85rem; }
@@ -809,7 +810,8 @@ tbody tr:hover td { background: rgba(255,255,255,0.015); }
 .author-articles a:hover { color: var(--accent); }
 @media (max-width: 600px) {
   .author-profile { flex-direction: column; }
-  .author-profile__photo { width: 140px; }
+  .author-profile > picture { flex: none; width: 180px; }
+  .author-profile__photo { height: 180px; }
 }
 
 /* =========================================================================
