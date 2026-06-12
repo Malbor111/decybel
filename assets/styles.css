@@ -1389,3 +1389,12 @@ tbody tr:hover td { background: rgba(255,255,255,0.015); }
   }
 }
 
+/* Tabele wielokolumnowe w artykułach (.table--scroll): scrollują zamiast ściskać kolumny.
+   min-width ustawiony w HTML per tabela; tu tylko reguły white-space.
+   Nadpisuje @media (max-width:768px) .prose td/th { white-space:normal } (spec. 22 vs 11). */
+@media (max-width: 768px) {
+  .prose .table-wrap .table--scroll td:first-child {
+    white-space: nowrap;
+  }
+}
+
