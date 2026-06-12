@@ -621,9 +621,9 @@ img, picture, video, iframe, embed, object, svg { max-width: 100%; display: bloc
   display: block;
   gap: clamp(1.5rem, 4vw, 3rem);
   padding-block: clamp(2rem, 5vw, 3.5rem);
-  max-width: 100%;
-  overflow: hidden;
   min-width: 0;
+  /* UWAGA: nie ustawiaj tu max-width ani overflow — .wrap już centruje przez
+     max-width: var(--maxw) + margin-inline: auto. Nadpisanie by to złamało. */
 }
 @media (min-width: 960px) {
   .article-layout {
@@ -1319,57 +1319,20 @@ tbody tr:hover td { background: rgba(255,255,255,0.015); }
 
 
 /* =========================================================================
-   MOBILE OVERFLOW - globalny, siłowy fix (ostatni blok w pliku)
-   Wszystko w main ograniczone do szerokości ekranu, kontenery 1-kolumnowe.
+   MOBILE — zapobieganie overflow bez łamania centrowania desktopowego.
+   html/body overflow-x: hidden jest już ustawione globalnie.
+   Padding .wrap na małych ekranach (640px jest w bloku powyżej).
+   aside i TOC są ukryte przez @media (max-width: 959px) powyżej.
+   Tabele i tekst mają overflow-wrap z wcześniejszych reguł.
+   Ten blok nadpisuje TYLKO rzeczy, których tam nie ma.
    ========================================================================= */
 @media (max-width: 768px) {
-  html, body {
-    overflow-x: hidden !important;
-    max-width: 100vw !important;
-  }
-  /* wszystko w głównej treści nie może przekroczyć ekranu */
-  main, main * {
-    max-width: 100% !important;
-    box-sizing: border-box !important;
-  }
-  /* kontenery układu - jedna kolumna, pełna szerokość */
-  .wrap,
-  .article-layout,
-  .wrap.article-layout,
-  .prose,
-  article {
-    display: block !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    grid-template-columns: none !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-  /* przywróć poziomy padding żeby tekst nie kleił się do krawędzi */
-  .wrap {
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
-  }
-  /* sidebar / TOC ukryte na mobile */
-  aside, .toc, nav.toc {
-    display: none !important;
-  }
-  /* obrazy, svg, wykresy, tabele - nigdy szersze niż ekran */
-  img, svg, picture, figure, video, iframe, pre, table {
-    max-width: 100% !important;
-    height: auto;
-  }
-  /* tabele scrollują wewnątrz zamiast rozpychać */
+  /* Tabele scrollują poziomo zamiast rozciągać ekran */
   table {
     display: block;
     overflow-x: auto;
-    width: 100% !important;
-  }
-  /* długie słowa/linki się łamią */
-  p, li, h1, h2, h3, h4, a, span, strong, em, blockquote {
-    overflow-wrap: break-word !important;
-    word-break: break-word !important;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
   }
 }
 
