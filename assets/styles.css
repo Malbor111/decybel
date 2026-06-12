@@ -361,7 +361,19 @@ img, picture, video, iframe, embed, object, svg { max-width: 100%; display: bloc
   border-radius: 2px;
 }
 .btn--ghost:hover { border-color: var(--accent); color: var(--text); }
+.btn--sm { padding: 0.45rem 1rem; font-size: 0.82rem; }
 .btn svg { width: 18px; height: 18px; }
+
+/* Siatka kart redakcji */
+.team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem; }
+.team-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; }
+.team-card__photo { aspect-ratio: 1/1; overflow: hidden; }
+.team-card__photo img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+.team-card__body { padding: 1.4rem; display: flex; flex-direction: column; gap: 0.6rem; flex: 1; }
+.team-card__body h3 { margin: 0; font-size: 1.1rem; }
+.team-card__role { font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent); margin: 0; text-transform: uppercase; letter-spacing: 0.04em; }
+.team-card__body p { margin: 0; color: var(--text-dim); font-size: 0.92rem; flex: 1; }
+.team-card__body .btn { align-self: flex-start; margin-top: 0.4rem; }
 
 /* =========================================================================
    KARTY ARTYKUŁÓW
@@ -780,6 +792,25 @@ tbody tr:hover td { background: rgba(255,255,255,0.015); }
   color: var(--text-dim);
 }
 .article-meta .dot { width: 4px; height: 4px; border-radius: 50%; background: var(--accent); }
+
+/* Byline autora w metadanych artykułu */
+.author-byline { display: inline-flex; align-items: center; gap: 0.45rem; }
+.author-byline a { color: var(--text); text-decoration: none; }
+.author-byline a:hover { color: var(--accent); }
+.author-avatar { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; flex-shrink: 0; display: inline-block; vertical-align: middle; }
+
+/* Strona profilu autora */
+.author-profile { display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 2.5rem; }
+.author-profile__photo { width: 180px; height: auto; border-radius: var(--radius); flex-shrink: 0; object-fit: cover; }
+.author-profile__role { font-family: var(--font-mono); font-size: 0.82rem; color: var(--accent); margin: 0 0 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; }
+.author-articles { display: flex; flex-direction: column; gap: 0.6rem; padding: 0; list-style: none; }
+.author-articles li::before { content: "→ "; color: var(--accent); font-family: var(--font-mono); font-size: 0.85rem; }
+.author-articles a { color: var(--text); text-decoration: none; }
+.author-articles a:hover { color: var(--accent); }
+@media (max-width: 600px) {
+  .author-profile { flex-direction: column; }
+  .author-profile__photo { width: 140px; }
+}
 
 /* =========================================================================
    SPIS TREŚCI (TOC)
