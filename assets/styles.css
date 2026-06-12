@@ -616,19 +616,30 @@ img, picture, video, iframe, embed, object, svg { max-width: 100%; display: bloc
 /* =========================================================================
    ARTYKUŁ — układ z paskiem bocznym (spis treści)
    ========================================================================= */
-/* MOBILE-FIRST: bazowo jedna kolumna (block). Grid TYLKO na desktopie. */
+/* Treść artykułu = JEDNA wyśrodkowana kolumna czytelnicza na każdej szerokości.
+   .prose centruje się samo (margin-inline: auto, max-width 720px) — to samo
+   wyśrodkowanie i ta sama oś co H1/meta i baner zdjęciowy powyżej.
+   TOC pokazujemy jako sticky w prawym marginesie TYLKO na szerokich ekranach
+   (>=1180px), gdzie istnieje gutter; nie zwęża to ani nie przesuwa kolumny tekstu.
+   Poniżej 1180px TOC jest ukryte (jak dotychczas), a kolumna pozostaje wyśrodkowana. */
 .article-layout {
   display: block;
-  gap: clamp(1.5rem, 4vw, 3rem);
   padding-block: clamp(2rem, 5vw, 3.5rem);
   min-width: 0;
-  /* UWAGA: nie ustawiaj tu max-width ani overflow — .wrap już centruje przez
-     max-width: var(--maxw) + margin-inline: auto. Nadpisanie by to złamało. */
 }
-@media (min-width: 960px) {
+@media (min-width: 1180px) {
   .article-layout {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 260px;
+    grid-template-columns: 1fr minmax(0, 720px) 1fr;
+    align-items: start;
+    column-gap: 0;
+  }
+  .article-layout > .prose { grid-column: 2; }
+  .article-layout > aside {
+    grid-column: 3;
+    justify-self: start;
+    width: 175px;
+    margin-left: 0.6rem;
   }
 }
 
@@ -642,7 +653,7 @@ article > p, article > h2, article > h3,
   box-sizing: border-box;
 }
 
-.prose { max-width: 72ch; overflow-wrap: break-word; word-break: break-word; }
+.prose { max-width: 720px; width: 100%; margin-inline: auto; overflow-wrap: break-word; word-break: break-word; }
 .prose h2 {
   font-size: clamp(1.5rem, 3.2vw, 2rem);
   margin: 2.6rem 0 1rem;
@@ -1306,8 +1317,9 @@ tbody tr:hover td { background: rgba(255,255,255,0.015); }
   }
 }
 
-/* --- Article-layout: ukrycie sidebara/TOC poniżej breakpointu desktop ---- */
-@media (max-width: 959px) {
+/* --- Article-layout: TOC w prawym marginesie tylko >=1180px; niżej ukryte,
+   żeby kolumna tekstu była jedną wyśrodkowaną kolumną bez bocznego offsetu. -- */
+@media (max-width: 1179px) {
   .article-layout > aside,
   .article-layout > .sidebar,
   .article-layout > .toc,
@@ -1322,7 +1334,7 @@ tbody tr:hover td { background: rgba(255,255,255,0.015); }
    MOBILE — zapobieganie overflow bez łamania centrowania desktopowego.
    html/body overflow-x: hidden jest już ustawione globalnie.
    Padding .wrap na małych ekranach (640px jest w bloku powyżej).
-   aside i TOC są ukryte przez @media (max-width: 959px) powyżej.
+   aside i TOC są ukryte przez @media (max-width: 1179px) powyżej.
    Tabele i tekst mają overflow-wrap z wcześniejszych reguł.
    Ten blok nadpisuje TYLKO rzeczy, których tam nie ma.
    ========================================================================= */
