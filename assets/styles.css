@@ -660,6 +660,30 @@ article > p, article > h2, article > h3,
 .prose strong { color: #F3EFE6; }
 .prose a { text-decoration: underline; text-underline-offset: 2px; text-decoration-color: var(--accent-dim); }
 
+/* Zdjęcia inline w treści artykułu */
+.prose figure {
+  margin: 2rem 0;
+  width: 100%;
+}
+.prose figure picture {
+  display: block;
+  width: 100%;
+}
+.prose figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  max-height: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+.prose figure figcaption {
+  font-size: 0.8rem;
+  color: var(--text-2, #9ba3ae);
+  margin-top: 0.5rem;
+}
+
 .prose blockquote {
   margin: 1.6rem 0;
   padding: 0.9rem 1.3rem;
