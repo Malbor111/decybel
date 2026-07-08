@@ -228,7 +228,26 @@
 
         <h2 id="faq">Najczęstsze pytania (FAQ)</h2>
         <div class="faq">
-          <!-- FAQ zostanie dodane ręcznie -->
+          <details class="faq__item">
+            <summary>Jak ustawić atak i release na początku?<svg aria-hidden="true" class="chev" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewBox="0 0 24 24"><line x1="12" x2="12" y1="5" y2="19"></line><line x1="5" x2="19" y1="12" y2="12"></line></svg></summary>
+            <div class="faq__a"><p>Zacznij od środkowych wartości i słuchaj. Wolny atak (30-50 ms) zachowuje naturalne uderzenie instrumentu - dobry dla perkusji i gitary. Szybki atak (1-5 ms) tłumi transjenty - dobry do wyrównania głośnego wokalu. Release ustaw tak, żeby kompresor zdążył "puścić" przed kolejnym uderzeniem - przy zbyt długim release kompresja będzie się kumulować.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>Jakie ratio wybrać dla wokalu?<svg aria-hidden="true" class="chev" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewBox="0 0 24 24"><line x1="12" x2="12" y1="5" y2="19"></line><line x1="5" x2="19" y1="12" y2="12"></line></svg></summary>
+            <div class="faq__a"><p>Dla wokalu zacznij od ratio 3:1 lub 4:1 - to zakres, który wyrównuje głośność bez zabijania naturalnej dynamiki. Przy ratio 8:1 i wyżej kompresor działa jak limiter i wokal traci oddech. Patrz na gain reduction - idealne 3-6 dB kompresji na głośnych miejscach to dobry punkt startowy.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>Czym różni się kompresor od limitera?<svg aria-hidden="true" class="chev" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewBox="0 0 24 24"><line x1="12" x2="12" y1="5" y2="19"></line><line x1="5" x2="19" y1="12" y2="12"></line></svg></summary>
+            <div class="faq__a"><p>Limiter to kompresor z bardzo wysokim ratio (10:1 i wyżej, często nieskończoność) - tworzy twardy sufit, którego sygnał nie może przekroczyć. Kompresor stopniowo redukuje głośność przy ratio 2:1 do 8:1, zachowując naturalny charakter dynamiki. W masteringu limiter stoi na końcu łańcucha i chroni przed clippingiem.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>Ile gain reduction to za dużo?<svg aria-hidden="true" class="chev" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewBox="0 0 24 24"><line x1="12" x2="12" y1="5" y2="19"></line><line x1="5" x2="19" y1="12" y2="12"></line></svg></summary>
+            <div class="faq__a"><p>Na ścieżkach instrumentów 3-6 dB to typowy zakres dla przezroczystej kompresji. Powyżej 8-10 dB kompresja zaczyna być słyszalna - co bywa zamierzonym efektem stylistycznym. Jeśli czujesz że coś "dusi" - zredukuj ratio albo podnieś threshold.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>Czy sidechain compression to to samo co ducking?<svg aria-hidden="true" class="chev" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewBox="0 0 24 24"><line x1="12" x2="12" y1="5" y2="19"></line><line x1="5" x2="19" y1="12" y2="12"></line></svg></summary>
+            <div class="faq__a"><p>Ducking to jeden z efektów sidechainu, ale nie jedyny. Sidechain oznacza sterowanie kompresorem sygnałem z innego źródła niż to, które jest kompresowane. Ducking (np. muzyka ściszana przez lektora) to klasyczny przykład. Sidechain basu do stopy w muzyce elektronicznej tworzy efekt "pompowania". Każdy ducking to sidechain, ale nie każdy sidechain to ducking.</p></div>
+          </details>
         </div>
 
         <section class="related" aria-label="Powiązane artykuły">
