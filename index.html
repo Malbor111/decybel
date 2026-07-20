@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="pl">
 <head>
@@ -14,6 +14,7 @@
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <link href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'&gt;&lt;rect width='26' height='26' rx='6' fill='%230D1117'/&gt;&lt;g stroke='%234DCC6A' stroke-width='2' stroke-linecap='round'&gt;&lt;line x1='3' y1='13' x2='3' y2='13'/&gt;&lt;line x1='7' y1='8' x2='7' y2='18'/&gt;&lt;line x1='11' y1='4' x2='11' y2='22'/&gt;&lt;line x1='15' y1='9' x2='15' y2='17'/&gt;&lt;line x1='19' y1='6' x2='19' y2='20'/&gt;&lt;line x1='23' y1='11' x2='23' y2='15'/&gt;&lt;/g&gt;&lt;/svg&gt;" rel="icon" type="image/svg+xml"/>
 <link href="favicon.ico" rel="icon" sizes="32x32"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
 <link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
 <!-- SEO podstawowe -->
 <title>Mix i Master - wiedza o produkcji muzyki, miksie i masteringu</title>
@@ -57,7 +58,8 @@
   "@type": "Organization",
   "name": "Mix i Master",
   "url": "https://mix-master.pl/",
-  "logo": "https://mix-master.pl/images/logo.png",
+  "logo": "https://mix-master.pl/favicon.svg",
+  "sameAs": ["https://choose-me.pl"],
   "description": "Serwis edukacyjny o produkcji muzyki, miksie i masteringu - po polsku.",
   "knowsAbout": ["produkcja muzyki", "miks", "mastering", "DAW", "realizacja dźwięku"]
 }
@@ -68,7 +70,7 @@
 <!-- ================= NAWIGACJA ================= -->
 <header class="nav">
 <div class="wrap nav__inner">
-<a aria-label="Mix i Master - strona główna" class="brand" href="index.html">
+<a aria-label="Mix i Master - strona główna" class="brand" href="/">
 <!-- logo: waveform -->
 <svg aria-hidden="true" fill="none" height="32" viewbox="0 0 26 26" width="32">
 <g stroke="currentColor" stroke-linecap="round" stroke-width="2">
@@ -89,11 +91,11 @@
 </button>
 <nav aria-label="Główna">
 <ul class="nav__links" id="nav-links">
-<li><a aria-current="page" href="index.html">Strona główna</a></li>
-<li><a href="baza-wiedzy.html">Baza wiedzy</a></li>
-<li><a href="narzedzia.html">Narzędzia</a></li>
-<li><a href="slownik.html">Słownik</a></li>
-<li><a href="o-serwisie.html">O serwisie</a></li>
+<li><a aria-current="page" href="/">Strona główna</a></li>
+<li><a href="/baza-wiedzy">Baza wiedzy</a></li>
+<li><a href="/narzedzia">Narzędzia</a></li>
+<li><a href="/slownik">Słownik</a></li>
+<li><a href="/o-serwisie">O serwisie</a></li>
 </ul>
 </nav>
 </div>
@@ -109,7 +111,7 @@
 <div class="wrap">
 <h1 class="reveal">Produkcja muzyki, miks i mastering - po polsku</h1>
 <div class="hero__cta reveal">
-<a class="btn btn--ghost" href="baza-wiedzy.html">Baza wiedzy →</a>
+<a class="btn btn--ghost" href="/baza-wiedzy">Baza wiedzy →</a>
 </div>
 </div>
 </section>
@@ -124,7 +126,7 @@
 <span class="eyebrow">Artykuł filarowy</span>
 <h2>Czym jest DAW i dlaczego to serce każdego studia?</h2>
 <p>DAW (Digital Audio Workstation) to program, w którym nagrywasz, układasz, edytujesz i miksujesz muzykę. To centrum dowodzenia całej produkcji - od pierwszego pomysłu po gotowy plik. Wyjaśniamy, z czego się składa, czym różni się od zwykłego edytora audio i jak wybrać swój pierwszy.</p>
-<a class="btn btn--ghost" href="artykuly/czym-jest-daw.html">Przeczytaj przewodnik
+<a class="btn btn--ghost" href="/artykuly/czym-jest-daw">Przeczytaj przewodnik
               <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
 </a>
 </div>
@@ -191,7 +193,7 @@
 <span class="eyebrow">Baza wiedzy</span>
 <h2>Polecane artykuły</h2>
 </div>
-<a class="btn btn--ghost" href="baza-wiedzy.html">Zobacz wszystkie</a>
+<a class="btn btn--ghost" href="/baza-wiedzy">Zobacz wszystkie</a>
 </div>
 <div class="editorial-grid">
 <!-- FEATURED -->
@@ -204,14 +206,13 @@
 </div>
 <div class="card__body">
 <div class="card__meta"><span class="tag" id="featured-tag">Streaming</span><span id="featured-time">10 min czytania</span></div>
-<h3><a class="card__link" href="artykuly/ile-spotify-placi-za-odtworzenie.html" id="featured-link-title"><span id="featured-title">Ile Spotify płaci za jedno odtworzenie? Prawda o tantiemach</span></a></h3>
+<h3><a class="card__link" href="/artykuly/ile-spotify-placi-za-odtworzenie" id="featured-link-title"><span id="featured-title">Ile Spotify płaci za jedno odtworzenie? Prawda o tantiemach</span></a></h3>
 <p id="featured-desc">Ile naprawdę zarabia muzyk na jednym streamie? Realne stawki, przykład liczbowy i co faktycznie wpływa na zarobki ze streamingu.</p>
-<a class="card__more" href="artykuly/ile-spotify-placi-za-odtworzenie.html" id="featured-link-more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+<a class="card__more" href="/artykuly/ile-spotify-placi-za-odtworzenie" id="featured-link-more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
 </div>
 </article>
 <!-- BOCZNE -->
-<div class="editorial-side"><article class="card card--compact reveal"><div class="card__thumb"><picture><source srcset="img/mix1-4.webp" type="image/webp"/><img alt="Jak nauczyć się miksu i masteringu - od czego zacząć?" decoding="async" height="519" loading="lazy" src="img/mix1-4.webp" width="1400"/></picture></div><div class="card__body"><div class="card__meta"><span class="tag">Mastering</span><span>7 min</span></div><h3><a class="card__link" href="artykuly/jak-nauczyc-sie-miksu-i-masteringu-od-czego-zaczac.html">Jak nauczyć się miksu i masteringu - od czego zacząć?</a></h3><p>Jak nauczyć się miksu i masteringu od zera? Sprawdź, od czego zacząć</p><span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></div></article>
-<article class="card card--compact reveal" data-alt="Ikony popularnych serwów streamingowych wyświetlane na ekranie smartfona" data-desc="Kto ma lepszy dźwięk i kto płaci artystom więcej? Tabele jakości i stawek za stream dla 8 platform." data-href="artykuly/spotify-tidal-apple-music-porownanie.html" data-img="images/spotify-tidal-porownanie-hero.jpg" data-tag="Streaming" data-time="12 min czytania" data-title="Spotify, Tidal, Apple Music - porównanie jakości dźwięku i stawek" data-webp="images/spotify-tidal-porownanie-hero.webp">
+<div class="editorial-side"><article class="card card--compact reveal"><div class="card__thumb"><picture><source srcset="images/mikro-voc.webp" type="image/webp"/><img alt="Mix i mastering wokalu - przewodnik krok po kroku" decoding="async" height="519" loading="lazy" src="images/mikro-voc.webp" width="1400"/></picture></div><div class="card__body"><div class="card__meta"><span class="tag">Mastering</span><span>2 min</span></div><h3><a class="card__link" href="/artykuly/mix-i-mastering-wokalu-przewodnik-krok-po-kroku">Mix i mastering wokalu - przewodnik krok po kroku</a></h3><p>Mix i mastering wokalu krok po kroku - jak wyczyścić ścieżkę, ustawić EQ, kompresję, de-esser i pogłos oraz zmasterować utwór w domowym studiu.</p><span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></div></article><article class="card card--compact reveal"><div class="card__thumb"><picture><source srcset="images/producent0.webp" type="image/webp"/><img alt="Prawa autorskie w muzyce - co każdy producent powinien wiedzieć" decoding="async" height="519" loading="lazy" src="images/producent0.webp" width="1400"/></picture></div><div class="card__body"><div class="card__meta"><span class="tag">Podstawy</span><span>9 min</span></div><h3><a class="card__link" href="/artykuly/prawa-autorskie-w-muzyce-co-kazdy-producent-powinien-wiedziec">Prawa autorskie w muzyce - co każdy producent powinien wiedzieć</a></h3><p>Prawa autorskie w muzyce - jak działają w Polsce i na świecie, czym jest ZAIKS, Content ID na YouTube, sample clearance i licencje Creative Commons. Praktyczny przewodnik dla producentów.</p><span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></div></article><article class="card card--compact reveal"><div class="card__thumb"><picture><source srcset="images/waveform.webp" type="image/webp"/><img alt="Formaty plików audio - WAV, MP3, FLAC i inne - które i kiedy używać" decoding="async" height="519" loading="lazy" src="images/waveform.webp" width="1400"/></picture></div><div class="card__body"><div class="card__meta"><span class="tag">Narzędzia</span><span>7 min</span></div><h3><a class="card__link" href="/artykuly/formaty-plikow-audio-wav-mp3-flac-i-inne-ktore-i-kiedy-uzywac">Formaty plików audio - WAV, MP3, FLAC i inne - które i kiedy używać</a></h3><p>WAV, MP3, FLAC, AIFF - czym różnią się formaty plików audio i który wybrać do nagrywania, miksu, masteringu i streamingu? Praktyczny przewodnik bez zbędnego żargonu.</p><span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></div></article><article class="card card--compact reveal"><div class="card__thumb"><picture><source srcset="images/fq3.webp" type="image/webp"/><img alt="Częstotliwości w muzyce - co słyszysz i dlaczego to ma znaczenie" decoding="async" height="519" loading="lazy" src="images/fq3.webp" width="1400"/></picture></div><div class="card__body"><div class="card__meta"><span class="tag">Miks</span><span>6 min</span></div><h3><a class="card__link" href="/artykuly/czestotliwosci-w-muzyce-co-slyszysz-i-dlaczego-to-ma-znaczenie">Częstotliwości w muzyce - co słyszysz i dlaczego to ma znaczenie</a></h3><p>Czym są częstotliwości w muzyce i jak wpływają na brzmienie? Poznaj pasma - bas, środek, góra - i dowiedz się, co słyszysz w każdym z nich. Praktyczna wiedza dla producentów.</p><span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></div></article><article class="card card--compact reveal"><div class="card__thumb"><picture><source srcset="images/headphones.webp" type="image/webp"/><img alt="Słuchawki vs monitory studyjne - czym miksować w domu" decoding="async" height="519" loading="lazy" src="images/headphones.webp" width="1400"/></picture></div><div class="card__body"><div class="card__meta"><span class="tag">Miks</span><span>6 min</span></div><h3><a class="card__link" href="/artykuly/sluchawki-vs-monitory-studyjne-czym-miksowac-w-domu">Słuchawki vs monitory studyjne - czym miksować w domu</a></h3><p>Słuchawki czy monitory studyjne - co wybrać do miksowania w domu? Poznaj różnice, wady i zalety obu rozwiązań oraz praktyczne wskazówki dla początkujących.</p><span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></div></article><article class="card card--compact reveal"><div class="card__thumb"><picture><source srcset="images/vst1-2.webp" type="image/webp"/><img alt="Wtyczki VST dla początkujących - które wybrać i od czego zacząć" decoding="async" height="519" loading="lazy" src="images/vst1-2.webp" width="1400"/></picture></div><div class="card__body"><div class="card__meta"><span class="tag">Narzędzia</span><span>6 min</span></div><h3><a class="card__link" href="/artykuly/wtyczki-vst-dla-poczatkujacych-ktore-wybrac-i-od-czego-zaczac">Wtyczki VST dla początkujących - które wybrać i od czego zacząć</a></h3><p>Czym są wtyczki VST i które warto mieć na start? Przegląd darmowych i płatnych pluginów do EQ, kompresji, reverbu i masteringu - bez przepłacania.</p><span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></div></article><article class="card card--compact reveal"><div class="card__thumb"><picture><source srcset="images/mikro2-2.webp" type="image/webp"/><img alt="Mikrofon do 500 zł - który wybrać do wokalu i podcastu?" decoding="async" height="519" loading="lazy" src="images/mikro2-2.webp" width="1400"/></picture></div><div class="card__body"><div class="card__meta"><span class="tag">Sprzęt</span><span>5 min</span></div><h3><a class="card__link" href="/artykuly/mikrofon-do-500-zl-ktory-wybrac-do-wokalu-i-podcastu">Mikrofon do 500 zł - który wybrać do wokalu i podcastu?</a></h3><p>Szukasz mikrofonu do nagrywania w domu? Sprawdź, który model do 500 zł sprawdzi się przy wokalu, podcaście i streamingu. Konkretne modele, porównanie i porady.</p><span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></div></article><article class="card card--compact reveal"><div class="card__thumb"><picture><source srcset="images/focusrite.webp" type="image/webp"/><img alt="Interfejs audio do domowego studia - jak wybrać i który kupić" decoding="async" height="519" loading="lazy" src="images/focusrite.webp" width="1400"/></picture></div><div class="card__body"><div class="card__meta"><span class="tag">Sprzęt</span><span>6 min</span></div><h3><a class="card__link" href="/artykuly/interfejs-audio-do-domowego-studia-jak-wybrac-i-ktory-kupic">Interfejs audio do domowego studia - jak wybrać i który kupić</a></h3><p>Jak wybrać interfejs audio do home studio? Porównujemy najlepsze modele w przedziale do 300, 600 i 1000 zł. Przetworniki, wejscia, opóźnienie - co naprawdę ma znaczenie.</p><span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></div></article><article class="card card--compact reveal"><div class="card__thumb"><picture><source srcset="images/vumeter2.webp" type="image/webp"/><img alt="LUFS i poziomy głośności - jak przygotować master na Spotify, YouTube i Apple Music?" decoding="async" height="519" loading="lazy" src="images/vumeter2.webp" width="1400"/></picture></div><div class="card__body"><div class="card__meta"><span class="tag">Mastering</span><span>5 min</span></div><h3><a class="card__link" href="/artykuly/lufs-i-poziomy-glosnosci-jak-przygotowac-master-na-spotify-youtube-i-apple-music">LUFS i poziomy głośności - jak przygotować master na Spotify, YouTube i Apple Music?</a></h3><p>Czym jest LUFS, True Peak i normalizacja głośności? Dowiedz się, jak przygotować master na Spotify, Apple Music i YouTube - konkretnie i bez lania wody.</p><span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></div></article><article class="card card--compact reveal"><div class="card__thumb"><picture><source srcset="images/sidechain.webp" type="image/webp"/><img alt="Sidechain i automatyzacja głośności - jak kontrolować dynamikę w miksie" decoding="async" height="519" loading="lazy" src="images/sidechain.webp" width="1400"/></picture></div><div class="card__body"><div class="card__meta"><span class="tag">Miks</span><span>6 min</span></div><h3><a class="card__link" href="/artykuly/sidechain-i-automatyzacja-glosnosci-jak-kontrolowac-dynamike-w-miksie">Sidechain i automatyzacja głośności - jak kontrolować dynamikę w miksie</a></h3><p>Sidechain compression, volume automation, ducking - poznaj techniki kontroli dynamiki w DAW, które oddzielają amatorski miks od profesjonalnego brzmienia.</p><span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></div></article><article class="card card--compact reveal"><div class="card__thumb"><picture><source srcset="images/synth.webp" type="image/webp"/><img alt="Muzyka tworzona przez AI - jaki ma wpływ na muzyków i branżę muzyczną" decoding="async" height="519" loading="lazy" src="images/synth.webp" width="1400"/></picture></div><div class="card__body"><div class="card__meta"><span class="tag">Wiedza</span><span>2 min</span></div><h3><a class="card__link" href="/artykuly/muzyka-tworzona-przez-ai-jaki-ma-wplyw-na-muzykow-i-branze-muzyczna">Muzyka tworzona przez AI - jaki ma wpływ na muzyków i branżę muzyczną</a></h3><p>Sztuczna inteligencja generuje coraz więcej muzyki. Sprawdzamy, jak to wpływa na zarobki muzyków, jakość produkcji i rynek streamingu.</p><span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></div></article><article class="card card--compact reveal"><div class="card__thumb"><picture><source srcset="images/akustyka-1.webp" type="image/webp"/><img alt="Akustyka pokoju domowymi sposobami - jak poprawić brzmienie" decoding="async" height="519" loading="lazy" src="images/akustyka-1.webp" width="1400"/></picture></div><div class="card__body"><div class="card__meta"><span class="tag">Podstawy</span><span>5 min</span></div><h3><a class="card__link" href="/artykuly/akustyka-pokoju-domowymi-sposobami-jak-poprawic-brzmienie">Akustyka pokoju domowymi sposobami - jak poprawić brzmienie</a></h3><p>Jak poprawić akustykę domowego pokoju bez wydawania fortuny? Szafa z ubraniami, wełna mineralna, pierwsze punkty odbicia - sprawdzone sposoby krok po kroku.</p><span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span></div></article><article class="card card--compact reveal" data-alt="Ikony popularnych serwów streamingowych wyświetlane na ekranie smartfona" data-desc="Kto ma lepszy dźwięk i kto płaci artystom więcej? Tabele jakości i stawek za stream dla 8 platform." data-href="/artykuly/spotify-tidal-apple-music-porownanie" data-img="images/spotify-tidal-porownanie-hero.jpg" data-tag="Streaming" data-time="12 min czytania" data-title="Spotify, Tidal, Apple Music - porównanie jakości dźwięku i stawek" data-webp="images/spotify-tidal-porownanie-hero.webp">
 <div class="card__thumb">
 <picture>
 <source srcset="images/spotify-tidal-porownanie-hero.webp" type="image/webp"/>
@@ -220,12 +221,12 @@
 </div>
 <div class="card__body">
 <div class="card__meta"><span class="tag">Streaming</span><span>12 min</span></div>
-<h3><a class="card__link" href="artykuly/spotify-tidal-apple-music-porownanie.html">Spotify, Tidal, Apple Music - porównanie jakości dźwięku i stawek</a></h3>
+<h3><a class="card__link" href="/artykuly/spotify-tidal-apple-music-porownanie">Spotify, Tidal, Apple Music - porównanie jakości dźwięku i stawek</a></h3>
 <p>Kto ma lepszy dźwięk i kto płaci artystom więcej? Tabele jakości i stawek za stream dla 8 platform.</p>
 <span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
 </div>
 </article>
-<article class="card card--compact reveal" data-alt="Stanowisko studyjne z otwartym programem DAW i kolorowymi ścieżkami na ekranie" data-desc="Czym jest cyfrowa stacja robocza, z czego się składa i jak różni się od zwykłego edytora audio." data-href="artykuly/czym-jest-daw.html" data-img="images/bruno-araujo-8_EAzzAA3bg-unsplash.jpg" data-tag="Podstawy" data-time="9 min czytania" data-title="Co to jest DAW? Kompletny przewodnik" data-webp="images/bruno-araujo-8_EAzzAA3bg-unsplash.webp">
+<article class="card card--compact reveal" data-alt="Stanowisko studyjne z otwartym programem DAW i kolorowymi ścieżkami na ekranie" data-desc="Czym jest cyfrowa stacja robocza, z czego się składa i jak różni się od zwykłego edytora audio." data-href="/artykuly/czym-jest-daw" data-img="images/bruno-araujo-8_EAzzAA3bg-unsplash.jpg" data-tag="Podstawy" data-time="9 min czytania" data-title="Co to jest DAW? Kompletny przewodnik" data-webp="images/bruno-araujo-8_EAzzAA3bg-unsplash.webp">
 <div class="card__thumb">
 <picture>
 <source srcset="images/bruno-araujo-8_EAzzAA3bg-unsplash.webp" type="image/webp"/>
@@ -234,12 +235,12 @@
 </div>
 <div class="card__body">
 <div class="card__meta"><span class="tag">Podstawy</span><span>9 min</span></div>
-<h3><a class="card__link" href="artykuly/czym-jest-daw.html">Co to jest DAW? Kompletny przewodnik</a></h3>
+<h3><a class="card__link" href="/artykuly/czym-jest-daw">Co to jest DAW? Kompletny przewodnik</a></h3>
 <p>Czym jest cyfrowa stacja robocza, z czego się składa i jak różni się od zwykłego edytora audio.</p>
 <span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
 </div>
 </article>
-<article class="card card--compact reveal" data-alt="Mikser audio z rzędami gałek i tłumików podświetlony fioletowym światłem" data-desc="Przegląd głównych DAW-ów: platformy, mocne strony i dla kogo każdy z nich jest najlepszy." data-href="artykuly/najpopularniejsze-daw.html" data-img="images/panagiotis-falcos-xGGujIXzKi4-unsplash.jpg" data-tag="Programy" data-time="11 min czytania" data-title="Najpopularniejsze programy do produkcji muzyki" data-webp="images/panagiotis-falcos-xGGujIXzKi4-unsplash.webp">
+<article class="card card--compact reveal" data-alt="Mikser audio z rzędami gałek i tłumików podświetlony fioletowym światłem" data-desc="Przegląd głównych DAW-ów: platformy, mocne strony i dla kogo każdy z nich jest najlepszy." data-href="/artykuly/najpopularniejsze-daw" data-img="images/panagiotis-falcos-xGGujIXzKi4-unsplash.jpg" data-tag="Programy" data-time="11 min czytania" data-title="Najpopularniejsze programy do produkcji muzyki" data-webp="images/panagiotis-falcos-xGGujIXzKi4-unsplash.webp">
 <div class="card__thumb">
 <picture>
 <source srcset="images/panagiotis-falcos-xGGujIXzKi4-unsplash.webp" type="image/webp"/>
@@ -248,12 +249,12 @@
 </div>
 <div class="card__body">
 <div class="card__meta"><span class="tag">Programy</span><span>11 min</span></div>
-<h3><a class="card__link" href="artykuly/najpopularniejsze-daw.html">Najpopularniejsze programy do produkcji muzyki</a></h3>
+<h3><a class="card__link" href="/artykuly/najpopularniejsze-daw">Najpopularniejsze programy do produkcji muzyki</a></h3>
 <p>Przegląd głównych DAW-ów: platformy, mocne strony i dla kogo każdy z nich jest najlepszy.</p>
 <span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
 </div>
 </article>
-<article class="card card--compact reveal" data-alt="Konsoleta mikserska ze świecącymi wskaźnikami VU nad rzędami tłumików" data-desc="Co dzieje się na każdym z etapów, w jakiej kolejności następują i jakie mity warto obalić." data-href="artykuly/mix-czy-mastering.html" data-img="images/caught-in-joy-llIZXpsK8Hs-unsplash.jpg" data-tag="Teoria" data-time="9 min czytania" data-title="Mix a mastering - czym się różnią?" data-webp="images/caught-in-joy-llIZXpsK8Hs-unsplash.webp">
+<article class="card card--compact reveal" data-alt="Konsoleta mikserska ze świecącymi wskaźnikami VU nad rzędami tłumików" data-desc="Co dzieje się na każdym z etapów, w jakiej kolejności następują i jakie mity warto obalić." data-href="/artykuly/mix-czy-mastering" data-img="images/caught-in-joy-llIZXpsK8Hs-unsplash.jpg" data-tag="Teoria" data-time="9 min czytania" data-title="Mix a mastering - czym się różnią?" data-webp="images/caught-in-joy-llIZXpsK8Hs-unsplash.webp">
 <div class="card__thumb">
 <picture>
 <source srcset="images/caught-in-joy-llIZXpsK8Hs-unsplash.webp" type="image/webp"/>
@@ -262,12 +263,12 @@
 </div>
 <div class="card__body">
 <div class="card__meta"><span class="tag">Teoria</span><span>9 min</span></div>
-<h3><a class="card__link" href="artykuly/mix-czy-mastering.html">Mix a mastering - czym się różnią?</a></h3>
+<h3><a class="card__link" href="/artykuly/mix-czy-mastering">Mix a mastering - czym się różnią?</a></h3>
 <p>Co dzieje się na każdym z etapów, w jakiej kolejności następują i jakie mity warto obalić.</p>
 <span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
 </div>
 </article>
-<article class="card card--compact reveal" data-alt="Rząd studyjnych głośników odsłuchowych ustawionych obok siebie" data-desc="Praktyczny przewodnik: co naprawdę potrzebne na start, pierwsze kroki i czego unikać." data-href="artykuly/jak-zaczac-produkcje-muzyki.html" data-img="images/sandy-kawadkar-i-FJ4obOoyM-unsplash.jpg" data-tag="Start" data-time="10 min czytania" data-title="Jak zacząć produkcję muzyki?" data-webp="images/sandy-kawadkar-i-FJ4obOoyM-unsplash.webp">
+<article class="card card--compact reveal" data-alt="Rząd studyjnych głośników odsłuchowych ustawionych obok siebie" data-desc="Praktyczny przewodnik: co naprawdę potrzebne na start, pierwsze kroki i czego unikać." data-href="/artykuly/jak-zaczac-produkcje-muzyki" data-img="images/sandy-kawadkar-i-FJ4obOoyM-unsplash.jpg" data-tag="Start" data-time="10 min czytania" data-title="Jak zacząć produkcję muzyki?" data-webp="images/sandy-kawadkar-i-FJ4obOoyM-unsplash.webp">
 <div class="card__thumb">
 <picture>
 <source srcset="images/sandy-kawadkar-i-FJ4obOoyM-unsplash.webp" type="image/webp"/>
@@ -276,12 +277,12 @@
 </div>
 <div class="card__body">
 <div class="card__meta"><span class="tag">Start</span><span>10 min</span></div>
-<h3><a class="card__link" href="artykuly/jak-zaczac-produkcje-muzyki.html">Jak zacząć produkcję muzyki?</a></h3>
+<h3><a class="card__link" href="/artykuly/jak-zaczac-produkcje-muzyki">Jak zacząć produkcję muzyki?</a></h3>
 <p>Praktyczny przewodnik: co naprawdę potrzebne na start, pierwsze kroki i czego unikać.</p>
 <span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
 </div>
 </article>
-<article class="card card--compact reveal" data-alt="Mikrofon pojemnościowy na statywie w domowym studiu nagraniowym" data-desc="Jak wybrać mikrofon, ustawić akustykę pokoju domowymi sposobami i nagrać czysty wokal bez drogiego studia." data-href="artykuly/jak-nagrac-wokal-w-domu.html" data-img="images/vocal1.jpg" data-tag="Nagrywanie" data-time="12 min czytania" data-title="Jak nagrać wokal w domu - bez studia, bez budżetu" data-webp="">
+<article class="card card--compact reveal" data-alt="Mikrofon pojemnościowy na statywie w domowym studiu nagraniowym" data-desc="Jak wybrać mikrofon, ustawić akustykę pokoju domowymi sposobami i nagrać czysty wokal bez drogiego studia." data-href="/artykuly/jak-nagrac-wokal-w-domu" data-img="images/vocal1.jpg" data-tag="Nagrywanie" data-time="12 min czytania" data-title="Jak nagrać wokal w domu - bez studia, bez budżetu" data-webp="">
 <div class="card__thumb">
 <picture>
 <img alt="Mikrofon pojemnościowy na statywie w domowym studiu nagraniowym" decoding="async" height="933" loading="lazy" src="images/vocal1.jpg" width="1400"/>
@@ -289,12 +290,12 @@
 </div>
 <div class="card__body">
 <div class="card__meta"><span class="tag">Nagrywanie</span><span>12 min</span></div>
-<h3><a class="card__link" href="artykuly/jak-nagrac-wokal-w-domu.html">Jak nagrać wokal w domu - bez studia, bez budżetu</a></h3>
+<h3><a class="card__link" href="/artykuly/jak-nagrac-wokal-w-domu">Jak nagrać wokal w domu - bez studia, bez budżetu</a></h3>
 <p>Jak wybrać mikrofon, ustawić akustykę pokoju domowymi sposobami i nagrać czysty wokal bez drogiego studia.</p>
 <span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
 </div>
 </article>
-<article class="card card--compact reveal" data-alt="Sprzętowy equalizer audio z rzędami suwaków w studiu nagraniowym" data-desc="Czym jest equalizer, jakie ma rodzaje i jak używać go w miksie - od high-pass filtra po kształtowanie barwy instrumentów." data-href="artykuly/co-to-jest-eq.html" data-img="images/equalizer1.jpg" data-tag="Miks" data-time="10 min czytania" data-title="Co to jest EQ i jak go używać w miksie?" data-webp="">
+<article class="card card--compact reveal" data-alt="Sprzętowy equalizer audio z rzędami suwaków w studiu nagraniowym" data-desc="Czym jest equalizer, jakie ma rodzaje i jak używać go w miksie - od high-pass filtra po kształtowanie barwy instrumentów." data-href="/artykuly/co-to-jest-eq" data-img="images/equalizer1.jpg" data-tag="Miks" data-time="10 min czytania" data-title="Co to jest EQ i jak go używać w miksie?" data-webp="">
 <div class="card__thumb">
 <picture>
 <img alt="Sprzętowy equalizer audio z rzędami suwaków w studiu nagraniowym" decoding="async" height="933" loading="lazy" src="images/equalizer1.jpg" width="1400"/>
@@ -302,12 +303,12 @@
 </div>
 <div class="card__body">
 <div class="card__meta"><span class="tag">Miks</span><span>10 min</span></div>
-<h3><a class="card__link" href="artykuly/co-to-jest-eq.html">Co to jest EQ i jak go używać w miksie?</a></h3>
+<h3><a class="card__link" href="/artykuly/co-to-jest-eq">Co to jest EQ i jak go używać w miksie?</a></h3>
 <p>Czym jest equalizer, jakie ma rodzaje i jak używać go w miksie - od high-pass filtra po kształtowanie barwy instrumentów.</p>
 <span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
 </div>
 </article>
-<article class="card card--compact reveal" data-alt="Sprzętowy kompresor audio z pokrętłami w studiu nagraniowym" data-desc="Threshold, ratio, attack, release - poznaj parametry kompresora i dowiedz się, kiedy i jak używać kompresji bez przekompresowania." data-href="artykuly/kompresja-w-muzyce.html" data-img="images/compressor1.jpg" data-tag="Miks" data-time="11 min czytania" data-title="Kompresja w muzyce - czym jest korektor dynamiki?" data-webp="">
+<article class="card card--compact reveal" data-alt="Sprzętowy kompresor audio z pokrętłami w studiu nagraniowym" data-desc="Threshold, ratio, attack, release - poznaj parametry kompresora i dowiedz się, kiedy i jak używać kompresji bez przekompresowania." data-href="/artykuly/kompresja-w-muzyce" data-img="images/compressor1.jpg" data-tag="Miks" data-time="11 min czytania" data-title="Kompresja w muzyce - czym jest korektor dynamiki?" data-webp="">
 <div class="card__thumb">
 <picture>
 <img alt="Sprzętowy kompresor audio z pokrętłami w studiu nagraniowym" decoding="async" height="933" loading="lazy" src="images/compressor1.jpg" width="1400"/>
@@ -315,12 +316,12 @@
 </div>
 <div class="card__body">
 <div class="card__meta"><span class="tag">Miks</span><span>11 min</span></div>
-<h3><a class="card__link" href="artykuly/kompresja-w-muzyce.html">Kompresja w muzyce - czym jest korektor dynamiki?</a></h3>
+<h3><a class="card__link" href="/artykuly/kompresja-w-muzyce">Kompresja w muzyce - czym jest korektor dynamiki?</a></h3>
 <p>Threshold, ratio, attack, release - poznaj parametry kompresora i dowiedz się, kiedy i jak używać kompresji bez przekompresowania.</p>
 <span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
 </div>
 </article>
-<article class="card card--compact reveal" data-alt="Domowe studio nagraniowe z interfejsem audio, słuchawkami i mikrofonem na biurku" data-desc="Minimalny zestaw do domowego studia nagrań: co kupić, czego unikać i jak zacząć nagrywać bez przepłacania." data-href="artykuly/home-studio-za-male-pieniadze.html" data-img="images/homestudio1.jpg" data-tag="Start" data-time="12 min czytania" data-title="Home studio za małe pieniądze — co naprawdę potrzebujesz?" data-webp="images/homestudio1.webp">
+<article class="card card--compact reveal" data-alt="Domowe studio nagraniowe z interfejsem audio, słuchawkami i mikrofonem na biurku" data-desc="Minimalny zestaw do domowego studia nagrań: co kupić, czego unikać i jak zacząć nagrywać bez przepłacania." data-href="/artykuly/home-studio-za-male-pieniadze" data-img="images/homestudio1.jpg" data-tag="Start" data-time="12 min czytania" data-title="Home studio za małe pieniądze — co naprawdę potrzebujesz?" data-webp="images/homestudio1.webp">
 <div class="card__thumb">
 <picture>
 <source srcset="images/homestudio1.webp" type="image/webp"/>
@@ -329,12 +330,12 @@
 </div>
 <div class="card__body">
 <div class="card__meta"><span class="tag">Start</span><span>12 min</span></div>
-<h3><a class="card__link" href="artykuly/home-studio-za-male-pieniadze.html">Home studio za małe pieniądze — co naprawdę potrzebujesz?</a></h3>
+<h3><a class="card__link" href="/artykuly/home-studio-za-male-pieniadze">Home studio za małe pieniądze — co naprawdę potrzebujesz?</a></h3>
 <p>Minimalny zestaw do domowego studia nagrań: co kupić, czego unikać i jak zacząć nagrywać bez przepłacania.</p>
 <span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
 </div>
 </article>
-<article class="card card--compact reveal" data-alt="Producent muzyczny pracujący przy DAW w home studio" data-desc="Praktyczny przewodnik dla osób, które chcą zacząć naukę miksu i masteringu od zera. Kolejność kroków, sprzęt minimum i najczęstsze pułapki." data-href="artykuly/jak-nauczyc-sie-miksu-i-masteringu-od-czego-zaczac.html" data-img="images/mix1-4.webp" data-tag="Wiedza" data-time="~7 min czytania" data-title="Jak nauczyć się miksu i masteringu - od czego zacząć?" data-webp="images/mix1-4.webp">
+<article class="card card--compact reveal" data-alt="Producent muzyczny pracujący przy DAW w home studio" data-desc="Praktyczny przewodnik dla osób, które chcą zacząć naukę miksu i masteringu od zera. Kolejność kroków, sprzęt minimum i najczęstsze pułapki." data-href="/artykuly/jak-nauczyc-sie-miksu-i-masteringu-od-czego-zaczac" data-img="images/mix1-4.webp" data-tag="Wiedza" data-time="~7 min czytania" data-title="Jak nauczyć się miksu i masteringu - od czego zacząć?" data-webp="images/mix1-4.webp">
 <div class="card__thumb">
 <picture>
 <source srcset="images/mix1-4.webp" type="image/webp"/>
@@ -343,7 +344,7 @@
 </div>
 <div class="card__body">
 <div class="card__meta"><span class="tag">Wiedza</span><span>~7 min</span></div>
-<h3><a class="card__link" href="artykuly/jak-nauczyc-sie-miksu-i-masteringu-od-czego-zaczac.html">Jak nauczyć się miksu i masteringu - od czego zacząć?</a></h3>
+<h3><a class="card__link" href="/artykuly/jak-nauczyc-sie-miksu-i-masteringu-od-czego-zaczac">Jak nauczyć się miksu i masteringu - od czego zacząć?</a></h3>
 <p>Praktyczny przewodnik dla osób, które chcą zacząć naukę miksu i masteringu od zera. Kolejność kroków, sprzęt minimum i najczęstsze pułapki.</p>
 <span class="card__more">Czytaj <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
 </div>
@@ -368,22 +369,22 @@
 <div class="step reveal">
 <span aria-hidden="true" class="step__num">01</span>
 <h3>Zrozum narzędzie</h3>
-<p>Poznaj DAW - program, w którym powstaje cała muzyka. <a href="artykuly/czym-jest-daw.html">Sprawdź, czym jest DAW</a>.</p>
+<p>Poznaj DAW - program, w którym powstaje cała muzyka. <a href="/artykuly/czym-jest-daw">Sprawdź, czym jest DAW</a>.</p>
 </div>
 <div class="step reveal">
 <span aria-hidden="true" class="step__num">02</span>
 <h3>Wybierz program</h3>
-<p>Porównaj popularne DAW-y i znajdź ten dla siebie. <a href="artykuly/najpopularniejsze-daw.html">Zobacz przegląd programów</a>.</p>
+<p>Porównaj popularne DAW-y i znajdź ten dla siebie. <a href="/artykuly/najpopularniejsze-daw">Zobacz przegląd programów</a>.</p>
 </div>
 <div class="step reveal">
 <span aria-hidden="true" class="step__num">03</span>
 <h3>Skompletuj minimum</h3>
-<p>Dowiedz się, co realnie potrzebne na start. <a href="artykuly/jak-zaczac-produkcje-muzyki.html">Przeczytaj poradnik startowy</a>.</p>
+<p>Dowiedz się, co realnie potrzebne na start. <a href="/artykuly/jak-zaczac-produkcje-muzyki">Przeczytaj poradnik startowy</a>.</p>
 </div>
 <div class="step reveal">
 <span aria-hidden="true" class="step__num">04</span>
 <h3>Poznaj miks i mastering</h3>
-<p>Zrozum, co naprawdę robią te etapy. <a href="artykuly/mix-czy-mastering.html">Poznaj różnice</a>.</p>
+<p>Zrozum, co naprawdę robią te etapy. <a href="/artykuly/mix-czy-mastering">Poznaj różnice</a>.</p>
 </div>
 </div>
 </div>
@@ -399,7 +400,7 @@
 </div>
 <div class="wrap footer__inner">
 <div class="footer__brand">
-<a aria-label="Mix i Master - strona główna" class="brand" href="index.html">
+<a aria-label="Mix i Master - strona główna" class="brand" href="/">
 <svg aria-hidden="true" fill="none" height="24" viewbox="0 0 26 26" width="24"><g stroke="currentColor" stroke-linecap="round" stroke-width="2"><line x1="3" x2="3" y1="13" y2="13"></line><line x1="7" x2="7" y1="8" y2="18"></line><line x1="11" x2="11" y1="4" y2="22"></line><line x1="15" x2="15" y1="9" y2="17"></line><line x1="19" x2="19" y1="6" y2="20"></line><line x1="23" x2="23" y1="11" y2="15"></line></g></svg>
           Mix i Master
         </a>
@@ -408,35 +409,35 @@
 <div>
 <h4>Nawigacja</h4>
 <ul>
-<li><a href="index.html">Strona główna</a></li>
-<li><a href="baza-wiedzy.html">Baza wiedzy</a></li>
-<li><a href="narzedzia.html">Narzędzia</a></li>
-<li><a href="slownik.html">Słownik</a></li>
-<li><a href="o-serwisie.html">O serwisie</a></li>
+<li><a href="/">Strona główna</a></li>
+<li><a href="/baza-wiedzy">Baza wiedzy</a></li>
+<li><a href="/narzedzia">Narzędzia</a></li>
+<li><a href="/slownik">Słownik</a></li>
+<li><a href="/o-serwisie">O serwisie</a></li>
 </ul>
 </div>
 <div>
 <h4>Artykuły</h4>
 <ul>
-<li><a href="artykuly/czym-jest-daw.html">Co to jest DAW</a></li>
-<li><a href="artykuly/najpopularniejsze-daw.html">Popularne DAW-y</a></li>
-<li><a href="artykuly/mix-czy-mastering.html">Mix a mastering</a></li>
-<li><a href="artykuly/jak-zaczac-produkcje-muzyki.html">Jak zacząć</a></li>
-<li><a href="artykuly/jak-nagrac-wokal-w-domu.html">Nagrywanie wokalu</a></li>
-<li><a href="artykuly/co-to-jest-eq.html">Co to jest EQ</a></li>
-<li><a href="artykuly/kompresja-w-muzyce.html">Kompresja w muzyce</a></li>
-<li><a href="artykuly/ile-spotify-placi-za-odtworzenie.html">Tantiemy Spotify</a></li>
-<li><a href="artykuly/spotify-tidal-apple-music-porownanie.html">Porównanie platform</a></li>
-<li><a href="artykuly/dlaczego-mix-brzmi-inaczej-na-glosnikach.html">Mix na głośnikach</a></li>
-<li><a href="artykuly/home-studio-za-male-pieniadze.html">Home studio za małe pieniądze</a></li>
-<li><a href="artykuly/jak-nauczyc-sie-miksu-i-masteringu-od-czego-zaczac.html">Jak nauczyć się miksu</a></li>
+<li><a href="/artykuly/czym-jest-daw">Co to jest DAW</a></li>
+<li><a href="/artykuly/najpopularniejsze-daw">Popularne DAW-y</a></li>
+<li><a href="/artykuly/mix-czy-mastering">Mix a mastering</a></li>
+<li><a href="/artykuly/jak-zaczac-produkcje-muzyki">Jak zacząć</a></li>
+<li><a href="/artykuly/jak-nagrac-wokal-w-domu">Nagrywanie wokalu</a></li>
+<li><a href="/artykuly/co-to-jest-eq">Co to jest EQ</a></li>
+<li><a href="/artykuly/kompresja-w-muzyce">Kompresja w muzyce</a></li>
+<li><a href="/artykuly/ile-spotify-placi-za-odtworzenie">Tantiemy Spotify</a></li>
+<li><a href="/artykuly/spotify-tidal-apple-music-porownanie">Porównanie platform</a></li>
+<li><a href="/artykuly/dlaczego-mix-brzmi-inaczej-na-glosnikach">Mix na głośnikach</a></li>
+<li><a href="/artykuly/home-studio-za-male-pieniadze">Home studio za małe pieniądze</a></li>
+<li><a href="/artykuly/jak-nauczyc-sie-miksu-i-masteringu-od-czego-zaczac">Jak nauczyć się miksu</a></li>
 </ul>
 </div>
 <div>
 <h4>Redakcja</h4>
 <ul>
-<li><a href="redakcja/marek-ostrowski.html">Marek Ostrowski</a></li>
-<li><a href="redakcja/zuzanna-lipka.html">Zuzanna Lipka</a></li>
+<li><a href="/redakcja/marek-ostrowski">Marek Ostrowski</a></li>
+<li><a href="/redakcja/zuzanna-lipka">Zuzanna Lipka</a></li>
 </ul>
 </div>
 </div>

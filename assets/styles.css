@@ -678,6 +678,10 @@ article > p, article > h2, article > h3,
   color: var(--text);
 }
 .prose p { color: #D7D2C7; }
+/* Lead w treści artykułu dzieli pełną szerokość kolumny .prose (720px),
+   tak jak h2/h3/akapity. Globalny .lead ma max-width: 60ch (dla hero) — tu go znosimy,
+   by p.lead nie był węższy niż reszta treści. */
+.prose .lead { max-width: none; }
 .prose ul, .prose ol { color: #D7D2C7; padding-left: 1.3rem; margin: 0 0 1.2rem; }
 .prose li { margin-bottom: 0.5rem; }
 .prose strong { color: #F3EFE6; }

@@ -2,6 +2,18 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/artykuly/akustyka-pokoju-domowe-sposoby",
+      "destination": "/artykuly/akustyka-pokoju-domowymi-sposobami-jak-poprawic-brzmienie",
+      "permanent": true
+    },
+    {
+      "source": "/artykuly/akustyka-pokoju-domowe-sposoby.html",
+      "destination": "/artykuly/akustyka-pokoju-domowymi-sposobami-jak-poprawic-brzmienie",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",

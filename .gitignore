@@ -1,6 +1,10 @@
 node_modules/
 package-lock.json
 TASK.md
+TASK2.md
+TASK3.md
+TASK-faq.md
+TASK-porzadki.md
 .vercel/
 *.log
 Thumbs.db

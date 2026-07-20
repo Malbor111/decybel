@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-G3VD61HGPN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-G3VD61HGPN');
+</script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'&gt;&lt;rect width='26' height='26' rx='6' fill='%230D1117'/&gt;&lt;g stroke='%234DCC6A' stroke-width='2' stroke-linecap='round'&gt;&lt;line x1='3' y1='13' x2='3' y2='13'/&gt;&lt;line x1='7' y1='8' x2='7' y2='18'/&gt;&lt;line x1='11' y1='4' x2='11' y2='22'/&gt;&lt;line x1='15' y1='9' x2='15' y2='17'/&gt;&lt;line x1='19' y1='6' x2='19' y2='20'/&gt;&lt;line x1='23' y1='11' x2='23' y2='15'/&gt;&lt;/g&gt;&lt;/svg&gt;" rel="icon" type="image/svg+xml"/>
+<link href="../favicon.ico" rel="icon" sizes="32x32"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<title>LUFS i poziomy głośności - jak przygotować master na Spotify, YouTube i Apple Music? | Mix i Master</title>
+<meta content="Czym jest LUFS, True Peak i normalizacja głośności? Dowiedz się, jak przygotować master na Spotify, Apple Music i YouTube - konkretnie i bez lania wody." name="description"/>
+<meta content="Mastering, Miks, Streaming, LUFS, Głośność" name="keywords"/>
+<meta content="Marek Ostrowski" name="author"/>
+<meta content="index, follow" name="robots"/>
+<link href="https://mix-master.pl/artykuly/lufs-i-poziomy-glosnosci-jak-przygotowac-master-na-spotify-youtube-i-apple-music" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="https://mix-master.pl/artykuly/lufs-i-poziomy-glosnosci-jak-przygotowac-master-na-spotify-youtube-i-apple-music" property="og:url"/>
+<meta content="LUFS i poziomy głośności - jak przygotować master na Spotify, YouTube i Apple Music?" property="og:title"/>
+<meta content="Czym jest LUFS, True Peak i normalizacja głośności? Dowiedz się, jak przygotować master na Spotify, Apple Music i YouTube - konkretnie i bez lania wody." property="og:description"/>
+<meta content="https://mix-master.pl/images/vumeter2.webp" property="og:image"/>
+<meta content="pl_PL" property="og:locale"/>
+<meta content="Mix i Master" property="og:site_name"/>
+<meta content="2026-07-03T10:00:00+02:00" property="article:published_time"/>
+<meta content="2026-07-03T10:00:00+02:00" property="article:modified_time"/>
+<meta content="Mastering" property="article:section"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="LUFS i poziomy głośności - jak przygotować master na Spotify, YouTube i Apple Music?" name="twitter:title"/>
+<meta content="Czym jest LUFS, True Peak i normalizacja głośności? Dowiedz się, jak przygotować master na Spotify, Apple Music i YouTube - konkretnie i bez lania wody." name="twitter:description"/>
+<meta content="https://mix-master.pl/images/vumeter2.webp" name="twitter:image"/>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "LUFS i poziomy głośności - jak przygotować master na Spotify, YouTube i Apple Music?",
+    "description": "Czym jest LUFS, True Peak i normalizacja głośności? Dowiedz się, jak przygotować master na Spotify, Apple Music i YouTube - konkretnie i bez lania wody.",
+    "url": "https://mix-master.pl/artykuly/lufs-i-poziomy-glosnosci-jak-przygotowac-master-na-spotify-youtube-i-apple-music",
+    "datePublished": "2026-07-03T10:00:00+02:00",
+    "dateModified": "2026-07-03T10:00:00+02:00",
+    "inLanguage": "pl-PL",
+    "author": {
+      "@type": "Person",
+      "name": "Marek Ostrowski",
+      "url": "https://mix-master.pl/redakcja/marek-ostrowski"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Mix i Master",
+      "url": "https://mix-master.pl/"
+    },
+    "articleSection": "Mastering",
+    "keywords": "Mastering, Miks, Streaming, LUFS, Głośność"
+  }
+  </script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://mix-master.pl/"},
+      {"@type": "ListItem", "position": 2, "name": "Baza wiedzy", "item": "https://mix-master.pl/baza-wiedzy"},
+      {"@type": "ListItem", "position": 3, "name": "LUFS i poziomy głośności - jak przygotować master na Spotify, YouTube i Apple Music?", "item": "https://mix-master.pl/artykuly/lufs-i-poziomy-glosnosci-jak-przygotowac-master-na-spotify-youtube-i-apple-music"}
+    ]
+  }
+  </script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&amp;family=IBM+Plex+Sans:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="../assets/styles.css" rel="stylesheet"/>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{"@type":"Question","name":"Dlaczego mój miks po wrzuceniu na SoundCloud brzmi gorzej i \"charczy\"?","acceptedAnswer":{"@type":"Answer","text":"Najczęstsza przyczyna to przekroczony True Peak. SoundCloud koduje audio do MP3 lub OGG przy transkodowaniu, a ten proces może generować inter-sample peaks - szczyty między próbkami, które w pliku WAV były niewidoczne. Jeśli Twój limiter był ustawiony na 0 dB Peak zamiast -1 dBTP, po transkodowaniu pojawia się clipping. Rozwiązanie: zawsze ustawiaj ceiling w limiterze na -1 dBTP lub niżej i użyj miernika z funkcją True Peak (np. Youlean Loudness Meter) do weryfikacji przed uploadem."}},{"@type":"Question","name":"Czy mastering pod streaming różni się od masteringu na płytę CD?","acceptedAnswer":{"@type":"Answer","text":"Tak, i to dość istotnie. CD nie normalizuje głośności - każdy utwór brzmi dokładnie tak głośno, jak go zmasterowałeś. Dlatego w erze CD producenci ścigali się na głośność (tzw. Loudness War). Na streamingu normalizacja wyrównuje pole - głośniejszy master nie daje Ci już przewagi, bo platforma go ściszy. Dodatkowo CD ma limit 0 dBFS, natomiast na streaming bezpieczniej zostawić True Peak na -1 dBTP z uwagi na transkodowanie. W praktyce: mastering na CD może być nieco głośniejszy i bardziej agresywnie limitowany, mastering streamingowy powinien zachować więcej dynamiki."}},{"@type":"Question","name":"Zostawiłem limiter na 0 dB zamiast -1 dBTP. Czy muszę to poprawiać?","acceptedAnswer":{"@type":"Answer","text":"Zależy od sytuacji. Jeśli mierzysz True Peak w dedykowanym mierniku (np. Youlean) i wskazuje wartość poniżej -1 dBTP - jesteś bezpieczny, mimo że ceiling był ustawiony na 0 dB. Limiter ustawiony na 0 dB Peak nie gwarantuje, że True Peak też jest 0 dBTP - często jest wyższy. Jeśli Twój True Peak wskazuje 0 dBTP lub powyżej, warto cofnąć się do masteringu i ustawić limiter na -1 dBTP jako ceiling True Peak. Różnica w odczuwalnej głośności będzie minimalna, ale ochronisz się przed chrupaniem po transkodowaniu na platformach."}},{"@type":"Question","name":"Jakie darmowe wtyczki do mierzenia LUFS polecacie na start?","acceptedAnswer":{"@type":"Answer","text":"Najlepszy punkt startowy to Youlean Loudness Meter 2 - darmowa wersja mierzy Integrated LUFS, Short-term, Momentary LUFS i True Peak, pokazuje historię głośności w czasie i działa we wszystkich popularnych DAW-ach (VST/AU/AAX). Jako uzupełnienie warto skorzystać z narzędzia online Loudness Penalty Analyzer - wgrywasz gotowy plik audio i dostajesz informację o ile każda z platform (Spotify, Apple Music, YouTube, Tidal) go ściszy lub podgłośni. Te dwa narzędzia razem w zupełności wystarczą do profesjonalnej weryfikacji masterów."}}]
+  }
+  </script>
+</head>
+<body>
+<a class="skip-link" href="#main">Przejdź do treści</a>
+<header class="nav">
+<div class="wrap nav__inner">
+<a aria-label="Mix i Master - strona główna" class="brand" href="/">
+<svg aria-hidden="true" fill="none" height="32" viewbox="0 0 26 26" width="32"><g stroke="currentColor" stroke-linecap="round" stroke-width="2"><line x1="3" x2="3" y1="13" y2="13"></line><line x1="7" x2="7" y1="8" y2="18"></line><line x1="11" x2="11" y1="4" y2="22"></line><line x1="15" x2="15" y1="9" y2="17"></line><line x1="19" x2="19" y1="6" y2="20"></line><line x1="23" x2="23" y1="11" y2="15"></line></g></svg>
+        Mix i Master
+      </a>
+<button aria-controls="nav-links" aria-expanded="false" aria-label="Otwórz menu" class="nav__toggle">
+<svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><line x1="4" x2="20" y1="7" y2="7"></line><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="17" y2="17"></line></svg>
+</button>
+<nav aria-label="Główna">
+<ul class="nav__links" id="nav-links">
+<li><a href="/">Strona główna</a></li>
+<li><a href="/baza-wiedzy">Baza wiedzy</a></li>
+<li><a href="/narzedzia">Narzędzia</a></li>
+<li><a href="/slownik">Słownik</a></li>
+<li><a href="/o-serwisie">O serwisie</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main id="main">
+<section class="hero hero--article">
+<div class="wrap">
+<nav aria-label="Okruszki" class="breadcrumbs">
+<ol>
+<li><a href="/">Strona główna</a></li>
+<li><a href="/baza-wiedzy">Baza wiedzy</a></li>
+<li><span aria-current="page">LUFS i poziomy głośności - jak przygotować master na Spotify, YouTube i Apple Music?</span></li>
+</ol>
+</nav>
+<span class="eyebrow reveal" style="margin-top:1rem">Mastering · Artykuł</span>
+<h1 class="reveal">LUFS i poziomy głośności - jak przygotować master na Spotify, YouTube i Apple Music?</h1>
+<div class="article-meta reveal">
+<span>Mastering</span><span class="dot"></span>
+<span>~7 min czytania</span><span class="dot"></span>
+<span>Opublikowano: <time datetime="2026-07-03">3 lipca 2026</time></span><span class="dot"></span>
+<span class="author-byline">
+<picture>
+<source srcset="../images/marek-ostrowski-avatar.webp" type="image/webp"/>
+<img alt="Marek Ostrowski" class="author-avatar" decoding="async" height="36" loading="lazy" src="../images/marek-ostrowski-avatar.webp" width="36"/>
+</picture>
+<a href="/redakcja/marek-ostrowski">Marek Ostrowski</a>
+</span>
+</div>
+</div>
+</section>
+<div class="wrap">
+<figure class="article-banner reveal">
+<picture>
+<source srcset="../images/vumeter2.webp" type="image/webp"/>
+<img alt="LUFS i poziomy głośności - jak przygotować master na Spotify, YouTube i Apple Music?" decoding="async" height="933" loading="eager" src="../images/vumeter2.webp" width="1400"/>
+</picture>
+</figure>
+</div>
+<div class="wrap article-layout">
+<article class="prose">
+<p>Skończyłeś miks, wszystko brzmi świetnie w słuchawkach, wrzucasz na Spotify - i nagle utwór jest cichszy od wszystkich innych, traci energię i "kopa". Znasz to? To jeden z najczęstszych problemów początkujących producentów, a rozwiązanie tkwi w zrozumieniu kilku pojęć, które rządzą głośnością na platformach streamingowych.</p>
+<h2 id="lufs-true-peak-headroom">Czym jest LUFS, True Peak i Headroom?</h2>
+<p>Zanim zaczniesz przygotowywać master pod streaming, musisz znać trzy podstawowe pojęcia. Bez nich ciężko sensownie kontrolować to, co robi Twój utwór po wyjściu z DAW-a.</p>
+<h3>LUFS - głośność, którą słyszy ucho</h3>
+<p><strong>LUFS (Loudness Units relative to Full Scale)</strong> to nowoczesna miara głośności. W odróżnieniu od starych mierników Peak czy RMS, LUFS uwzględnia to, jak nasze ucho faktycznie odbiera dźwięk - czyli uwzględnia psychoakustykę. Wolniejsze tony (np. bas) muszą być głośniejsze, żebyśmy postrzegali je jako równie głośne co środek pasma - LUFS to uwzględnia. Dzięki temu dwa różne utwory ze wskazaniem -14 LUFS brzą subiektywnie podobnie głośno, niezależnie od gatunku.</p>
+<p>Rozróżniamy dwa główne pomiary:</p>
+<ul>
+<li><strong>Integrated LUFS</strong> - średnia głośność całego utworu. Tego używają platformy do normalizacji.</li>
+<li><strong>Short-term LUFS / Momentary LUFS</strong> - chwilowa głośność w czasie rzeczywistym. Przydatne przy pracy na żywo nad miksem.</li>
+</ul>
+<h3>True Peak - ukryte przesterowania</h3>
+<p><strong>True Peak</strong> to rzeczywisty szczyt sygnału, który uwzględnia tzw. inter-sample peaks, czyli szczyty pojawiające się między próbkami przy przetwarzaniu cyfrowym. Dźwięk cyfrowy jest próbkowany - mierzone są wartości co np. 1/44100 sekundy. Ale gdy plik audio zostaje zakodowany do MP3 lub OGG (co robi Spotify czy YouTube), przetwarzanie może wytworzyć szczyty wyższe niż 0 dB, nawet jeśli Twój plik WAV na to nie wskazywał.</p>
+<p>Dlatego limitować należy właśnie True Peak, nie zwykły Peak. Większość platform zaleca limit na poziomie <strong>-1 dBTP</strong> (decybele True Peak). Wychodzenie powyżej tej wartości skutkuje przesterowaniami, które brzmią jak chrupanie lub trzeszczenie - szczególnie słyszalne w słuchawkach.</p>
+<h3>Headroom - zapas dynamiki</h3>
+<p><strong>Headroom</strong> to przestrzeń między najgłośniejszym momentem Twojego sygnału a poziomem 0 dBFS (pełna skala cyfrowa). Jeśli Twój master uderza w 0 dBFS lub blisko, nie ma miejsca na żadne przetworzenie bez clippingu. Standardowo zostawia się minimum -1 dB headroom, choć przy masteringu pod streaming często -1 dBTP (True Peak) jako limit daje więcej bezpieczeństwa.</p>
+<h2 id="loudness-normalization">Loudness Normalization - dlaczego Spotify ścisza Twoje utwory?</h2>
+<p>Spotify, Apple Music, YouTube, Tidal - wszystkie wielkie platformy używają automatycznej normalizacji głośności. Mechanizm działa prosto: algorytm mierzy Integrated LUFS każdego przesłanego utworu i przy odtwarzaniu podgłaśnia albo ścisza go do swojego docelowego poziomu. Słuchacz nie musi kręcić gałką, bo kolejne piosenki nie będą skakać głośnością.</p><figure class="article-figure"><picture><source srcset="../images/mixer2.webp" type="image/webp"/><img alt="Loudness Normalization - dlaczego Spotify ścisza Twoje utwory?" decoding="async" height="460" loading="lazy" src="../images/mixer2.webp" width="740"/></picture></figure>
+<p>Co to oznacza w praktyce? Jeśli zmasterujesz utwór "na cegłę" - czyli wyciśniesz z niego -6 LUFS lub głośniej - platforma i tak go ściszy do swojego targetu (np. -14 LUFS na Spotify). A przy ściszaniu tracisz dynamikę. Utwór, który był agresywnie skompresowany i limitowany, po ściszeniu staje się płaski, bez oddechu, bez punchu. Paradoksalnie - głośniejszy master po normalizacji brzmi gorzej niż spokojniejszy, dynamiczny master.</p>
+<p>Z kolei utwór cichszy niż target - np. akustyczna ballada na -18 LUFS - zostanie przez platformę podgłośniony. Jeśli masz tam zbyt wysoki True Peak, po podgłośnieniu pojawią się przesterowania, których nie było w oryginalnym pliku.</p>
+<h2 id="mit-14-lufs">Mit -14 LUFS - czy naprawdę musisz w to celować?</h2>
+<p>W sieci krąży przekonanie, że każdy master musi mieć dokładnie -14 LUFS, bo "taki jest target Spotify". To nieprawda, a próba na siłę trafiania w tę wartość przynosi więcej szkody niż pożytku.</p>
+<p>Oto co faktycznie się dzieje:</p>
+<ul>
+<li>Spotify ścisza wszystko, co jest głośniejsze niż -14 LUFS (przy domyślnych ustawieniach normalizacji).</li>
+<li>Nic nie robi z plikami cichszymi - zostawiasz dynamikę i platformie wystarczy to, co dostarczyłeś.</li>
+<li>Podgłaśnia tylko, jeśli utwór jest znacznie cichszy niż target (i wtedy ryzykujesz True Peak).</li>
+</ul>
+<p>Praktyczny wniosek: zrób <strong>dobrze brzmiący, dynamiczny master</strong> i nie panikuj, że masz -9 LUFS zamiast -14 LUFS. Muzyka elektroniczna, klubowa, rockowa naturalnie jest głośniejsza - i to jest w porządku. Platforma delikatnie ją ściszy, ale zachowa dynamikę i punch, bo nie byłeś zmuszony jej dobijać limitererem do granic możliwości.</p>
+<p>Celowanie na siłę w -14 LUFS ma sens głównie dla muzyki, która naturalnie jest dynamiczna i cichsza - klasyki, jazzu, folku, ballad. Dla reszty lepiej skupić się na jakości masteringu, a nie na konkretnej cyfrze.</p>
+<h2 id="wymagania-platform">Wymagania platform - Spotify, Apple Music, YouTube</h2>
+<p>Oto zestawienie docelowych poziomów głośności dla najważniejszych platform streamingowych. Pamiętaj, że są to wartości, do których platformy normalizują - nie musisz w nie idealnie trafiać, ale warto je znać.</p><figure class="article-figure"><picture><source srcset="../images/streaming.webp" type="image/webp"/><img alt="Wymagania platform - Spotify, Apple Music, YouTube" decoding="async" height="460" loading="lazy" src="../images/streaming.webp" width="740"/></picture></figure>
+<h3>Spotify</h3>
+<ul>
+<li><strong>Target normalizacji:</strong> ok. -14 LUFS (Integrated)</li>
+<li><strong>Limit True Peak:</strong> -1 dBTP (zalecane -2 dBTP przy głośnych masterach)</li>
+<li><strong>Format przesyłania:</strong> WAV lub FLAC, 16-bit lub 24-bit</li>
+</ul>
+<h3>Apple Music</h3>
+<ul>
+<li><strong>Target normalizacji:</strong> ok. -16 LUFS (Integrated) - Apple jest bardziej restrykcyjne</li>
+<li><strong>Limit True Peak:</strong> -1 dBTP</li>
+<li><strong>Uwaga:</strong> Apple oferuje też Dolby Atmos - tam obowiązują osobne wymagania</li>
+</ul>
+<h3>YouTube</h3>
+<ul>
+<li><strong>Target normalizacji:</strong> ok. -14 LUFS (Integrated)</li>
+<li><strong>Limit True Peak:</strong> -1 dBTP</li>
+<li><strong>Specyfika:</strong> YouTube używa normalizacji Content ID - może nieco różnić się w zależności od formatu wideo</li>
+</ul>
+<p>Ogólna zasada bezpieczna dla wszystkich platform: celuj w zakres <strong>od -9 do -16 LUFS</strong> (zależnie od gatunku) i pilnuj True Peak poniżej -1 dBTP. Przy takich wartościach żadna platforma nie zrobi Twojemu masterowi nic, czego byś się obawiał.</p>
+<h2 id="jak-mierzyc-lufs">Jak mierzyć LUFS w swoim DAW?</h2>
+<p>Większość profesjonalnych DAW-ów (Ableton, FL Studio, Logic, Reaper, Pro Tools) ma wbudowane mierniki głośności lub obsługuje wtyczki VST/AU do pomiaru. Umieść miernik na torze master (Master Bus / Master Channel) jako ostatnią wtyczkę w łańcuchu - lub przynajmniej za limiterem.</p>
+<h3>Darmowe wtyczki do pomiaru LUFS</h3>
+<p><strong>Youlean Loudness Meter 2</strong> - zdecydowanie najpopularniejszy wybór dla początkujących. Darmowa wersja mierzy Integrated LUFS, Short-term, Momentary i True Peak. Pokazuje historię głośności w czasie, co pomaga zrozumieć dynamikę utworu. Dostępna jako VST/AU/AAX. Wystarczy na start i jest intuicyjna w obsłudze.</p>
+<p><strong>LUFS Meter od Klanghelm</strong> - prosta, lekka wtyczka, darmowa w wersji podstawowej. Dobra jeśli potrzebujesz tylko szybkiego pomiaru bez rozbudowanego interfejsu.</p>
+<p><strong>Loudness Penalty Analyzer</strong> - narzędzie online (nie wtyczka), na które wgrywasz plik audio i dostajesz informację, o ile Spotify, Apple Music i YouTube go ściszą lub podgłośnią. Bardzo przydatne do finalnej weryfikacji mastera przed oddaniem do dystrybucji.</p>
+<p>Jak korzystać: uruchom utwór od początku do końca z miernikiem na masterze i sprawdź wartość <strong>Integrated LUFS po pełnym odtworzeniu</strong>. Tylko taki pomiar jest miarodajny - nie zatrzymuj w połowie.</p>
+<h2 id="podsumowanie">Podsumowanie</h2>
+<p>Mastering pod streaming to nie wyścig na głośność - to kontrola nad dynamiką i bezpieczeństwo sygnału. Trzy zasady, które warto zapamiętać:</p><figure class="article-figure"><picture><source srcset="../images/vumeter.webp" type="image/webp"/><img alt="Podsumowanie" decoding="async" height="460" loading="lazy" src="../images/vumeter.webp" width="740"/></picture></figure>
+<ul>
+<li><strong>Zadbaj o dynamikę.</strong> Nie dobijaj mastera limitererem tylko po to, żeby trafić w -14 LUFS. Platformy i tak go ściszą, a Ty tracisz punch i głębię.</li>
+<li><strong>Kontroluj True Peak.</strong> Zawsze ustawiaj limiter na -1 dBTP (a nie na 0 dB Peak). Inter-sample peaks potrafią zaskoczyć po kompresji do MP3/OGG.</li>
+<li><strong>Używaj mierników LUFS.</strong> Zainstaluj Youlean Loudness Meter lub podobne narzędzie na masterze i mierz Integrated LUFS po pełnym odtworzeniu - nie orientuj się na oko ani na subiektywne wrażenie głośności.</li>
+</ul>
+<p>Dobry master brzmi dobrze na każdej platformie. Znasz już narzędzia - teraz wystarczy je zastosować.</p>
+<section class="faq-section">
+<h2 id="faq">Najczęstsze pytania (FAQ)</h2>
+<div class="faq-list">
+<details class="faq-item">
+<summary class="faq-question">Dlaczego mój miks po wrzuceniu na SoundCloud brzmi gorzej i "charczy"?</summary>
+<div class="faq-answer"><p>Najczęstsza przyczyna to przekroczony True Peak. SoundCloud koduje audio do MP3 lub OGG przy transkodowaniu, a ten proces może generować inter-sample peaks - szczyty między próbkami, które w pliku WAV były niewidoczne. Jeśli Twój limiter był ustawiony na 0 dB Peak zamiast -1 dBTP, po transkodowaniu pojawia się clipping. Rozwiązanie: zawsze ustawiaj ceiling w limiterze na -1 dBTP lub niżej i użyj miernika z funkcją True Peak (np. Youlean Loudness Meter) do weryfikacji przed uploadem.</p></div>
+</details>
+<details class="faq-item">
+<summary class="faq-question">Czy mastering pod streaming różni się od masteringu na płytę CD?</summary>
+<div class="faq-answer"><p>Tak, i to dość istotnie. CD nie normalizuje głośności - każdy utwór brzmi dokładnie tak głośno, jak go zmasterowałeś. Dlatego w erze CD producenci ścigali się na głośność (tzw. Loudness War). Na streamingu normalizacja wyrównuje pole - głośniejszy master nie daje Ci już przewagi, bo platforma go ściszy. Dodatkowo CD ma limit 0 dBFS, natomiast na streaming bezpieczniej zostawić True Peak na -1 dBTP z uwagi na transkodowanie. W praktyce: mastering na CD może być nieco głośniejszy i bardziej agresywnie limitowany, mastering streamingowy powinien zachować więcej dynamiki.</p></div>
+</details>
+<details class="faq-item">
+<summary class="faq-question">Zostawiłem limiter na 0 dB zamiast -1 dBTP. Czy muszę to poprawiać?</summary>
+<div class="faq-answer"><p>Zależy od sytuacji. Jeśli mierzysz True Peak w dedykowanym mierniku (np. Youlean) i wskazuje wartość poniżej -1 dBTP - jesteś bezpieczny, mimo że ceiling był ustawiony na 0 dB. Limiter ustawiony na 0 dB Peak nie gwarantuje, że True Peak też jest 0 dBTP - często jest wyższy. Jeśli Twój True Peak wskazuje 0 dBTP lub powyżej, warto cofnąć się do masteringu i ustawić limiter na -1 dBTP jako ceiling True Peak. Różnica w odczuwalnej głośności będzie minimalna, ale ochronisz się przed chrupaniem po transkodowaniu na platformach.</p></div>
+</details>
+<details class="faq-item">
+<summary class="faq-question">Jakie darmowe wtyczki do mierzenia LUFS polecacie na start?</summary>
+<div class="faq-answer"><p>Najlepszy punkt startowy to Youlean Loudness Meter 2 - darmowa wersja mierzy Integrated LUFS, Short-term, Momentary LUFS i True Peak, pokazuje historię głośności w czasie i działa we wszystkich popularnych DAW-ach (VST/AU/AAX). Jako uzupełnienie warto skorzystać z narzędzia online Loudness Penalty Analyzer - wgrywasz gotowy plik audio i dostajesz informację o ile każda z platform (Spotify, Apple Music, YouTube, Tidal) go ściszy lub podgłośni. Te dwa narzędzia razem w zupełności wystarczą do profesjonalnej weryfikacji masterów.</p></div>
+</details>
+</div>
+</section>
+</article>
+<aside>
+<nav aria-label="Spis treści" class="toc">
+<p class="toc__title">Spis treści</p>
+<ol>
+<li><a href="#lufs-true-peak-headroom">Czym jest LUFS, True Peak i Headroom?</a></li>
+<li><a href="#loudness-normalization">Loudness Normalization - dlaczego Spotify ścisza Twoje utwory?</a></li>
+<li><a href="#mit-14-lufs">Mit -14 LUFS - czy naprawdę musisz w to celować?</a></li>
+<li><a href="#wymagania-platform">Wymagania platform - Spotify, Apple Music, YouTube</a></li>
+<li><a href="#jak-mierzyc-lufs">Jak mierzyć LUFS w swoim DAW?</a></li>
+<li><a href="#podsumowanie">Podsumowanie</a></li>
+<li><a href="#faq">Najczęstsze pytania (FAQ)</a></li>
+</ol>
+</nav>
+</aside>
+</div>
+</main>
+<footer class="footer">
+<div class="wrap footer__inner">
+<div class="footer__brand">
+<a aria-label="Mix i Master - strona główna" class="brand" href="/">
+<svg aria-hidden="true" fill="none" height="24" viewbox="0 0 26 26" width="24"><g stroke="currentColor" stroke-linecap="round" stroke-width="2"><line x1="3" x2="3" y1="13" y2="13"></line><line x1="7" x2="7" y1="8" y2="18"></line><line x1="11" x2="11" y1="4" y2="22"></line><line x1="15" x2="15" y1="9" y2="17"></line><line x1="19" x2="19" y1="6" y2="20"></line><line x1="23" x2="23" y1="11" y2="15"></line></g></svg>
+          Mix i Master
+        </a>
+<p>Polska baza wiedzy o produkcji muzyki, miksie i masteringu. Uczymy zrozumiale i bez sprzedażowego szumu.</p>
+</div>
+<div>
+<h4>Nawigacja</h4>
+<ul>
+<li><a href="/">Strona główna</a></li>
+<li><a href="/baza-wiedzy">Baza wiedzy</a></li>
+<li><a href="/narzedzia">Narzędzia</a></li>
+<li><a href="/slownik">Słownik</a></li>
+<li><a href="/o-serwisie">O serwisie</a></li>
+</ul>
+</div>
+<div>
+<h4>Artykuły</h4>
+<ul>
+<li><a href="/artykuly/czym-jest-daw">Co to jest DAW</a></li>
+<li><a href="/artykuly/najpopularniejsze-daw">Popularne DAW-y</a></li>
+<li><a href="/artykuly/mix-czy-mastering">Mix a mastering</a></li>
+<li><a href="/artykuly/jak-zaczac-produkcje-muzyki">Jak zacząć</a></li>
+<li><a href="/artykuly/jak-nagrac-wokal-w-domu">Nagrywanie wokalu</a></li>
+<li><a href="/artykuly/co-to-jest-eq">Co to jest EQ</a></li>
+<li><a href="/artykuly/kompresja-w-muzyce">Kompresja w muzyce</a></li>
+<li><a href="/artykuly/spotify-tidal-apple-music-porownanie">Porównanie platform</a></li>
+</ul>
+</div>
+<div>
+<h4>Redakcja</h4>
+<ul>
+<li><a href="/redakcja/marek-ostrowski">Marek Ostrowski</a></li>
+<li><a href="/redakcja/zuzanna-lipka">Zuzanna Lipka</a></li>
+</ul>
+</div>
+</div>
+<div class="wrap footer__bottom">
+<span>© 2026 Mix i Master</span>
+<span>mix-master.pl - wiedza o dźwięku</span>
+</div>
+</footer>
+<script defer="" src="../assets/main.js"></script>
+<div aria-hidden="true" class="peak-meter">
+<div class="peak-meter__label">L</div>
+<div class="peak-meter__track">
+<div class="peak-meter__bar" id="pm-left"></div>
+<div class="peak-meter__peak" id="pm-peak-left"></div>
+</div>
+<div class="peak-meter__track">
+<div class="peak-meter__bar" id="pm-right"></div>
+<div class="peak-meter__peak" id="pm-peak-right"></div>
+</div>
+<div class="peak-meter__label">R</div>
+</div>
+</body>
+</html>
